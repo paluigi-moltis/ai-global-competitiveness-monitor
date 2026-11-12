@@ -24,17 +24,23 @@ import logging
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv  # noqa: E402  (before any collector imports)
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from common import setup_logging, RAW_DIR, PROCESSED_DIR, standardise, write_processed  # noqa: E402
-from common import load_models, load_model_mapping  # noqa: E402
-from common import resolve_with_unmatched, write_unmatched_review  # noqa: E402
+# Load .env from the repo root (if present) so API keys reach collectors
+# via environment variables. Real environment variables take precedence.
+load_dotenv(Path(__file__).resolve().parent / ".env")
+
+import common  # noqa: E402  (module import so tests can repoint paths)
+from common import setup_logging, standardise, DATASET_KEYS  # noqa: E402
 
 log = logging.getLogger("collect")
 
 ALL_SOURCES = [
-    "openrouter", "epoch", "artificial_analysis", "huggingface",
-    "modelscope", "arena", "ollama", "livebench", "livecodebench", "swebench",
+    "openrouter", "vercel_gateway", "epoch", "artificial_analysis",
+    "huggingface", "modelscope", "arena", "ollama", "livebench",
+    "livecodebench", "swebench",
 ]
 
 
@@ -42,6 +48,9 @@ def fetch_source(source: str, days: int | None) -> list[dict]:
     """Dispatch to the collector module. Returns standardised row dicts."""
     if source == "openrouter":
         from collectors.openrouter import collect
+        return collect(days=days)
+    if source == "vercel_gateway":
+        from collectors.vercel_gateway import collect
         return collect(days=days)
     if source == "epoch":
         from collectors.epoch import collect
@@ -93,7 +102,9 @@ def run_source(source: str, days: int | None) -> bool:
     if "_dataset" in df.columns:
         df = df.drop(columns=["_dataset"])
     std = standardise(dataset, df, source=source)
-    write_processed(dataset if dataset != "downloads" else f"downloads_{source}", std)
+    name = dataset if dataset not in ("downloads", "usage_shares") else f"{dataset}_{source}"
+    merge_keys = DATASET_KEYS.get(dataset)  # idempotent append, history preserved
+    common.write_processed(name, std, merge_keys=merge_keys)
     log.info("%s: %d standardised %s rows", source, len(std), dataset)
     return True
 

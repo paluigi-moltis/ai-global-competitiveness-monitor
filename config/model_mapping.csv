@@ -178,3 +178,26 @@ artificial_analysis,Mistral Large (24.11),mistral-large-2411
 artificial_analysis,Mistral Medium 3,mistral-medium-3
 artificial_analysis,Mistral Small 3.2,mistral-small-3-2
 artificial_analysis,Command A,command-a
+vercel_gateway,GPT-6 Luna,gpt-6-luna
+vercel_gateway,GPT 5.6 Luna,gpt-6-luna
+vercel_gateway,GPT-6 Astra,gpt-6-astra
+vercel_gateway,GPT-6.1 Sol,gpt-6-1-sol
+vercel_gateway,GPT-5 nano,gpt-5-nano
+vercel_gateway,Claude Opus 5.5,claude-opus-5-5
+vercel_gateway,Claude Sonnet 5.5,claude-sonnet-5-5
+vercel_gateway,Claude Haiku 5.5,claude-haiku-5-5
+vercel_gateway,Claude Sonnet 4.5,claude-sonnet-4-5
+vercel_gateway,Claude Fable 5.2,claude-fable-5-2
+vercel_gateway,Gemini 3.8 Flash,gemini-3-8-flash
+vercel_gateway,Gemini 3.5 Flash Lite,gemini-3-5-flash-lite
+vercel_gateway,Gemini 3.1 Flash Lite,gemini-3-1-flash-lite
+vercel_gateway,DeepSeek V4.1 Flash,deepseek-v4-1-flash
+vercel_gateway,DeepSeek V4.1 Flash 1017,deepseek-v4-1-flash
+vercel_gateway,DeepSeek V4 Flash 0731,deepseek-v4-flash
+vercel_gateway,GLM 5.3,glm-5-3
+vercel_gateway,GLM 5.3 Flash,glm-5-3-flash
+vercel_gateway,Kimi K3,kimi-k3
+vercel_gateway,Kimi K3.1 Pro,kimi-k3-1-pro
+vercel_gateway,Grok 4.7,grok-4-7
+vercel_gateway,Grok 4.6,grok-4-6
+vercel_gateway,Beam 1.0,beam-1-0

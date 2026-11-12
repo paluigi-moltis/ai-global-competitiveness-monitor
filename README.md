@@ -81,14 +81,26 @@ python scripts/build_weights_template.py   # (re)generate config/weights.xlsx
 pytest                                     # run the test suite
 ```
 
+**API keys** live in environment variables. Copy `.env.example` to `.env`
+(git-ignored) and fill in what you need - `collect.py` and `process.py` load
+it automatically via python-dotenv; real environment variables take
+precedence. The Vercel AI Gateway source needs no key at all (public export,
+CC BY 4.0).
+
 The OpenRouter collector needs an API key (any valid OpenRouter key works;
 the Data API is CC BY 4.0 licensed):
 
 ```bash
-export OPENROUTER_API_KEY=sk-or-...
+cp .env.example .env          # then set OPENROUTER_API_KEY in .env
 python collect.py --source openrouter
+python collect.py --source vercel_gateway   # no key needed
 python process.py
 ```
+
+Collection is **idempotent**: observations are keyed by (date, source, id)
+and merged into the existing Parquet files - re-running never duplicates
+rows or overwrites already-archived history, and snapshots accumulate over
+time.
 
 ## Entity identification and geography
 
@@ -148,6 +160,19 @@ The identifiable share of total traffic is reported alongside: OpenRouter
 publishes only the top 50 models plus one aggregated "other" row, which
 cannot be attributed to a geography.
 
+**Vercel AI Gateway** (per geography, same "Other" exclusion):
+
+- Share of identifiable tokens (`vercel_gateway_tokens_share`, weight 1.0).
+- Share of identifiable spend (`vercel_gateway_spend_share`, ⚠ experimental,
+  **zero weight by default** — spend reflects the gateway's own pricing).
+
+The gateway publishes anonymised daily *percentage shares* (never absolute
+volumes), so this source populates a dedicated `usage_shares` dataset and no
+absolute numbers are fabricated. Two documented caveats: figures cover only
+traffic routed through Vercel's gateway (self-selected sample), and shares
+sum to 100% *including* the aggregated "Other" row, so geographical shares
+sum to the identifiable share of traffic.
+
 **Downloads** - platforms are kept strictly separate (Hugging Face,
 ModelScope, Ollama). Geographical shares are computed *within* each platform;
 raw counts are never summed across platforms because counters and definitions
@@ -178,6 +203,7 @@ Index(g,t) = Σ w_i · x(i,g,t) / Σ_{i ∈ A(g,t)} w_i
 | Source | Purpose | Status |
 |---|---|---|
 | OpenRouter | usage tokens, estimated spending | implemented (`rankings-daily` Data API, key required, CC BY 4.0) |
+| Vercel AI Gateway | model usage shares (tokens/requests/spend) | implemented (public `leaderboard-export`, no key, CC BY 4.0, shares from 2025-10-01) |
 | Epoch AI | model + benchmark history | Phase 2 |
 | LMArena | human-preference Elo | Phase 2 |
 | Artificial Analysis | evaluations/rankings | Phase 2 (API terms to verify) |

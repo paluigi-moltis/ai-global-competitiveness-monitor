@@ -47,6 +47,14 @@ ADOPTION_COMPONENTS = [
      "adoption.openrouter_open_usage", 1.0, ""),
     ("or_spend_open_share", "OpenRouter: share of estimated spending from open-weight models",
      "adoption.openrouter_open_spend", 0.0, "EXPERIMENTAL; see or_spend_share."),
+    ("vercel_gateway_tokens_share", "Vercel AI Gateway: share of identifiable tokens",
+     "adoption.vercel_gateway_usage", 1.0,
+     "Gateway-published daily token shares (CC BY 4.0); excludes the aggregated "
+     "'Other' row. Share-based: reflects Vercel gateway traffic only."),
+    ("vercel_gateway_spend_share", "Vercel AI Gateway: share of identifiable spend",
+     "adoption.vercel_gateway_spend", 0.0,
+     "EXPERIMENTAL. Spend shares as reported by the gateway (includes its own "
+     "pricing); zero weight by default."),
     ("hf_downloads_share", "Hugging Face: share of downloads (open-weight ecosystem)",
      "adoption.huggingface_downloads", 1.0,
      "Platform-specific: never summed with other platforms."),

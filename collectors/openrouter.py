@@ -3,7 +3,8 @@
 Endpoint: GET /api/v1/datasets/rankings-daily (Data API, CC BY 4.0)
 Docs: https://openrouter.ai/docs/cookbook/administration/data-api
 
-Requires any valid OpenRouter API key (env var OPENROUTER_API_KEY).
+Requires any valid OpenRouter API key (OPENROUTER_API_KEY, read from the
+environment - put it in a repo-root .env; see .env.example).
 Returns the top 50 public models per day by total tokens plus an
 aggregated "other" row. Historical coverage from 2025-01-01; max span
 366 days per request; rate limit 30 req/min, 500 req/day.

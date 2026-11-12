@@ -19,6 +19,16 @@ WEB_DATA_DIR = ROOT / "web" / "data"
 
 GEOGRAPHIES = ["US", "China", "EU", "RoW"]
 
+# Key columns that uniquely identify one observation per standard dataset
+# (used for idempotent merge on re-collection).
+DATASET_KEYS: dict[str, list[str]] = {
+    "usage": ["date", "source", "source_model_id"],
+    "benchmarks": ["date", "benchmark", "source", "source_model_id"],
+    "downloads": ["date", "source", "source_model_id"],
+    "usage_shares": ["date", "source", "source_model_id", "metric"],
+    "model_metadata": ["date", "source", "source_model_id"],
+}
+
 
 # ---------------------------------------------------------------------------
 # Configuration loading
@@ -222,6 +232,13 @@ STANDARD_SCHEMAS: dict[str, dict] = {
         "columns": ["date", "source", "source_model_id", "downloads"],
         "dtypes": {"downloads": "float64"},
     },
+    "usage_shares": {
+        # Gateway-reported daily share of a metric (tokens/requests/spend) per
+        # model. Shares, NOT absolute volumes: only published when the source
+        # does not expose absolutes (e.g. Vercel AI Gateway leaderboards).
+        "columns": ["date", "source", "source_model_id", "metric", "share_percent"],
+        "dtypes": {"share_percent": "float64"},
+    },
     "model_metadata": {
         "columns": ["date", "source", "source_model_id", "company_name",
                     "weights_status", "release_date"],
@@ -256,10 +273,26 @@ def standardise(dataset: str, df: pd.DataFrame, *, source: str | None = None) ->
     return out
 
 
-def write_processed(name: str, df: pd.DataFrame) -> Path:
-    """Write a processed dataset as Parquet; returns the file path."""
+def write_processed(name: str, df: pd.DataFrame, *,
+                    merge_keys: list[str] | None = None) -> Path:
+    """Write a processed dataset as Parquet; returns the file path.
+
+    With `merge_keys` (from common.DATASET_KEYS), new rows are merged into
+    the existing file idempotently: existing keys keep their first-recorded
+    values, new keys are appended, and the file is sorted by its keys. This
+    preserves historical observations across collection runs.
+    """
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     path = PROCESSED_DIR / f"{name}.parquet"
+    if merge_keys is not None and path.exists():
+        existing = pd.read_parquet(path)
+        combined = pd.concat([existing, df], ignore_index=True)
+        # dedupe on keys; keep the FIRST occurrence (earliest recorded wins,
+        # so a re-fetch of an old day does not overwrite archived history)
+        combined = (combined
+                    .drop_duplicates(subset=merge_keys, keep="first")
+                    .sort_values(merge_keys, ignore_index=True))
+        df = combined
     df.to_parquet(path, index=False)
     log.info("Wrote %s (%d rows)", path, len(df))
     return path

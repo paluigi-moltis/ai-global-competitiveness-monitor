@@ -84,6 +84,25 @@ For each (benchmark, date, geography), with `N ∈ {10, 20}`:
   (`vendor/model:free` etc.). Mapping accounts for the main variants;
   unmapped variants land in `data/unmatched_review.csv`.
 
+### Vercel AI Gateway usage shares
+
+- Source: public `leaderboard-export` API (`vercel.com/api/ai/leaderboard-export`),
+  CC BY 4.0, no authentication, cached 24h upstream. Daily share history
+  from 2025-10-01.
+- **Shares, not absolutes**: only percentage shares of tokens/requests/spend
+  are published. Stored in the `usage_shares` dataset; absolute volumes are
+  never derived or fabricated.
+- **Attribution**: mapped via display names in `model_mapping.csv`
+  (`source=vercel_gateway`); the `labs` dataset (clean creator slugs) can
+  cross-check mappings. The aggregated "Other" row stays unmapped and is
+  excluded from geographical shares - geographical shares therefore sum to
+  the identifiable share of gateway traffic, not to 100%.
+- **Self-selection caveat**: reflects traffic routed through Vercel AI
+  Gateway only. Treat as one market sample alongside OpenRouter, not a
+  total-market measure; both are share-based and never summed.
+- Attribution line when republishing: © 2026 Vercel. "AI Gateway Leaderboard
+  Data" is licensed under CC BY 4.0.
+
 ### Estimated spending (EXPERIMENTAL, zero default weight)
 
 Estimated spend cannot be reconstructed accurately from total tokens. If
@@ -123,6 +142,18 @@ Zero weight by default until reliability is assessed.
   the dashboard exposes it so users can see how stale a component is.
 - Coverage is reported per (date, geography): available weight / total
   intended weight.
+
+## API keys and configuration
+
+All keys are read from environment variables; `collect.py`/`process.py`
+load a repo-root `.env` via python-dotenv (`.env.example` documents every
+supported variable, `.env` is git-ignored). Never hardcode keys; the
+frontend never receives any key.
+
+| Variable | Source | Required |
+|---|---|---|
+| `OPENROUTER_API_KEY` | OpenRouter rankings-daily | yes for `--source openrouter` |
+| `VERCEL_AI_GATEWAY_API_KEY` | Vercel AI Gateway | no (public endpoint) |
 
 ## Known data gaps (documented, not fabricated)
 

@@ -15,6 +15,9 @@ data/raw/
 data/processed/
 data/unmatched_review.csv
 
+# Secrets
+.env
+
 # OS / editor
 .DS_Store
 .idea/

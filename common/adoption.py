@@ -75,6 +75,44 @@ def _share_by_geography(usage: pd.DataFrame, value_col: str,
     return out
 
 
+def usage_shares_components(shares: pd.DataFrame, model_info: pd.DataFrame,
+                            platform: str, metrics=("tokens",)) -> pd.DataFrame:
+    """Adoption components from gateway-published DAILY SHARES.
+
+    Used for sources that publish percentage shares rather than absolute
+    volumes (Vercel AI Gateway leaderboards). Shares are attributed to
+    geographies via model_mapping.csv; the aggregated "Other" row stays
+    unmapped and is excluded - the identifiable share of the total is the
+    natural by-product of the shares themselves (they sum to 100 per
+    date x metric including "Other").
+
+    `shares` columns: date, source, source_model_id, metric, share_percent
+    Output: date, component_id (<platform>_<metric>_share), geography, value
+    (value in 0-1; source percent divided by 100).
+    """
+    s = shares[shares["source"] == platform].copy()
+    if s.empty:
+        return pd.DataFrame(columns=["date", "component_id", "geography", "value"])
+    info = model_info[["source", "source_model_id", "geography", "weights_status"]]
+    s = s.merge(info, on=["source", "source_model_id"], how="left")
+    # unmapped rows (incl. the "Other" aggregate): excluded from geography shares
+    mapped = s[s["geography"].notna()].copy()
+    mapped["share"] = mapped["share_percent"] / 100.0
+
+    out_frames = []
+    for metric in metrics:
+        m = mapped[mapped["metric"] == metric]
+        if m.empty:
+            continue
+        agg = m.groupby(["date", "geography"])["share"].sum().reset_index()
+        agg["component_id"] = f"{platform}_{metric}_share"
+        out_frames.append(agg[["date", "component_id", "geography", "share"]]
+                          .rename(columns={"share": "value"}))
+    if not out_frames:
+        return pd.DataFrame(columns=["date", "component_id", "geography", "value"])
+    return pd.concat(out_frames, ignore_index=True)
+
+
 def openrouter_components(usage: pd.DataFrame, model_info: pd.DataFrame) -> pd.DataFrame:
     """OpenRouter adoption components from standardised usage data.
 

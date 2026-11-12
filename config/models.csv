@@ -35,3 +35,23 @@ devstral-small,Devstral Small,mistral,open
 command-a,Command A,cohere,open
 olmo-3,O-LMo 3,ai2,open
 tongyi-deepresearch-30b,Tongyi DeepResearch 30B,qwen,open
+gpt-6-luna,GPT-6 Luna,openai,closed
+gpt-6-astra,GPT-6 Astra,openai,closed
+gpt-6-1-sol,GPT-6.1 Sol,openai,closed
+gpt-5-nano,GPT-5 nano,openai,closed
+claude-opus-5-5,Claude Opus 5.5,anthropic,closed
+claude-sonnet-5-5,Claude Sonnet 5.5,anthropic,closed
+claude-haiku-5-5,Claude Haiku 5.5,anthropic,closed
+claude-fable-5-2,Claude Fable 5.2,anthropic,closed
+gemini-3-8-flash,Gemini 3.8 Flash,google,closed
+gemini-3-5-flash-lite,Gemini 3.5 Flash Lite,google,closed
+gemini-3-1-flash-lite,Gemini 3.1 Flash Lite,google,closed
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,deepseek,open
+deepseek-v4-flash,DeepSeek V4 Flash,deepseek,open
+glm-5-3,GLM 5.3,zhipu,open
+glm-5-3-flash,GLM 5.3 Flash,zhipu,open
+kimi-k3,Kimi K3,moonshot,open
+kimi-k3-1-pro,Kimi K3.1 Pro,moonshot,open
+grok-4-7,Grok 4.7,xai,closed
+grok-4-6,Grok 4.6,xai,closed
+beam-1-0,Beam 1.0,inception,unknown

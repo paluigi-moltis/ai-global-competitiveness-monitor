@@ -14,7 +14,8 @@
    (set `source` via `collect.py`; just return `"_dataset": "<schema>"` on rows)
 5. Register in `collect.py`: add to `ALL_SOURCES` and the dispatcher.
 6. Document limitations in `docs/methodology.md` (counter semantics, history
-   depth, known gaps). If a metric is unreliable, say so - do not proxy it.
+   depth, known gaps), and `.env.example` if the source needs a key.
+   If a metric is unreliable, say so - do not proxy it.
 
 Rules:
 - Idempotent: rerunning must not duplicate observations (keyed by date+id).

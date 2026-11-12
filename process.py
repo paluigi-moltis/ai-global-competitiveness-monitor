@@ -27,7 +27,14 @@ from pathlib import Path
 
 import pandas as pd
 
+from dotenv import load_dotenv  # noqa: E402
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+# Environment variables may be defined in a repo-root .env (API keys etc.);
+# real environment variables take precedence. process.py itself needs no
+# network access - this only standardises configuration loading.
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 import common  # noqa: E402  (module import so tests can repoint paths)
 from common import GEOGRAPHIES, load_models, load_companies, setup_logging  # noqa: E402
@@ -113,6 +120,14 @@ def build_adoption_components(model_info: pd.DataFrame) -> pd.DataFrame:
             comp = downloads_components(dl, model_info, platform)
             if not comp.empty:
                 frames.append(comp)
+    # share-based adoption (gateways publishing daily % shares, not absolutes)
+    from common.adoption import usage_shares_components
+    shares = _load_standardised("usage_shares_vercel_gateway")
+    if shares is not None:
+        comp = usage_shares_components(shares, model_info, "vercel_gateway",
+                                       metrics=("tokens", "spend"))
+        if not comp.empty:
+            frames.append(comp)
     if not frames:
         return pd.DataFrame(columns=["date", "component_id", "geography", "value"])
     return pd.concat(frames, ignore_index=True)
