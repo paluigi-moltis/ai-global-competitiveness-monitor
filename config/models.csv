@@ -55,3 +55,232 @@ kimi-k3-1-pro,Kimi K3.1 Pro,moonshot,open
 grok-4-7,Grok 4.7,xai,closed
 grok-4-6,Grok 4.6,xai,closed
 beam-1-0,Beam 1.0,inception,unknown
+gpt-5-1,GPT-5.1,openai,closed
+gpt-5-2,GPT-5.2,openai,closed
+gpt-5-3-codex,GPT-5.3 Codex,openai,closed
+gpt-5-4,GPT-5.4,openai,closed
+gpt-5-4-mini,GPT-5.4 mini,openai,closed
+gpt-5-4-nano,GPT-5.4 nano,openai,closed
+gpt-5-4-pro,GPT-5.4 Pro,openai,closed
+gpt-5-5,GPT-5.5,openai,closed
+gpt-5-5-pro,GPT-5.5 Pro,openai,closed
+gpt-5-6-luna,GPT-5.6 Luna,openai,closed
+gpt-5-6-sol,GPT-5.6 Sol,openai,closed
+gpt-5-6-terra,GPT-5.6 Terra,openai,closed
+gpt-6-sol,GPT-6 Sol,openai,closed
+gpt-6-1-terra,GPT-6.1 Terra,openai,closed
+gpt-4o-mini,GPT-4o mini,openai,closed
+gpt-4-1,GPT-4.1,openai,closed
+gpt-4-1-mini,GPT-4.1 mini,openai,closed
+gpt-4-1-nano,GPT-4.1 nano,openai,closed
+gpt-4-5,GPT-4.5,openai,closed
+o3-mini,o3-mini,openai,closed
+o4-mini,o4-mini,openai,closed
+o1,o1,openai,closed
+o1-mini,o1-mini,openai,closed
+o1-preview,o1-preview,openai,closed
+claude-opus-4-5,Claude Opus 4.5,anthropic,closed
+claude-opus-4-6,Claude Opus 4.6,anthropic,closed
+claude-opus-4-7,Claude Opus 4.7,anthropic,closed
+claude-opus-4-8,Claude Opus 4.8,anthropic,closed
+claude-opus-5,Claude Opus 5,anthropic,closed
+claude-sonnet-5,Claude Sonnet 5,anthropic,closed
+claude-haiku-4-5,Claude Haiku 4.5,anthropic,closed
+claude-fable-5,Claude Fable 5,anthropic,closed
+claude-fable-5-1,Claude Fable 5.1,anthropic,closed
+claude-3-5-sonnet,Claude 3.5 Sonnet,anthropic,closed
+gemini-3-pro,Gemini 3 Pro,google,closed
+gemini-3-flash,Gemini 3 Flash,google,closed
+gemini-3-1-pro,Gemini 3.1 Pro,google,closed
+gemini-3-5-flash,Gemini 3.5 Flash,google,closed
+gemini-3-6-flash,Gemini 3.6 Flash,google,closed
+gemini-3-7-flash,Gemini 3.7 Flash,google,closed
+gemini-4-argon,Gemini 4 Argon,google,closed
+gemini-4-carbon,Gemini 4 Carbon,google,closed
+gemma-3-27b,Gemma 3 27B,google,open
+gemma-3-12b,Gemma 3 12B,google,open
+grok-3-mini,Grok 3 Mini,xai,closed
+grok-4-3,Grok 4.3,xai,closed
+grok-4-5,Grok 4.5,xai,closed
+grok-2,Grok 2,xai,closed
+deepseek-r1-0528,DeepSeek-R1-0528,deepseek,open
+deepseek-v3-0324,DeepSeek-V3-0324,deepseek,open
+deepseek-v4-pro,DeepSeek V4 Pro,deepseek,open
+deepseek-r1-distill-llama-70b,DeepSeek-R1-Distill-Llama-70B,deepseek,open
+deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,deepseek,open
+glm-4-7,GLM 4.7,zhipu,open
+glm-4-7-flash,GLM 4.7 Flash,zhipu,open
+glm-5,GLM 5,zhipu,open
+glm-5-1,GLM 5.1,zhipu,open
+glm-5-2,GLM 5.2,zhipu,open
+kimi-k2-5,Kimi K2.5,moonshot,open
+kimi-k2-6,Kimi K2.6,moonshot,open
+kimi-k2-7-code,Kimi K2.7 Code,moonshot,open
+qwen3-235b-thinking,Qwen3-235B-A22B-Thinking-2507,alibaba,open
+qwen3-30b-a3b,Qwen3-30B-A3B,alibaba,open
+qwen3-30b-a3b-thinking,Qwen3-30B-A3B-Thinking-2507,alibaba,open
+qwen3-30b-a3b-instruct,Qwen3-30B-A3B-Instruct-2507,alibaba,open
+qwen3-max,Qwen3-Max,alibaba,closed
+qwen3-5-397b,Qwen3.5-397B-A17B,alibaba,open
+qwen3-5-35b,Qwen3.5-35B-A3B,alibaba,open
+qwen3-6-max,Qwen3.6-Max,alibaba,closed
+qwen3-7-max,Qwen3.7-Max,alibaba,closed
+qwen3-7-plus,Qwen3.7-Plus,alibaba,closed
+qwen3-8-max,Qwen3.8-Max,alibaba,closed
+qwen2-5-32b,Qwen2.5-32B,alibaba,open
+qwq-plus,QwQ-Plus,alibaba,closed
+qwq-32b,QwQ-32B,alibaba,open
+llama-3-1-405b,Llama 3.1 405B,meta,open
+minimax-m3,MiniMax M3,minimax,open
+mistral-large-2402,Mistral Large 2402,mistral,open
+mistral-large-2407,Mistral Large 2407,mistral,open
+mistral-large-4-0,Mistral Large 4.0,mistral,closed
+mistral-large-4-0-oss,Mistral Large 4.0 OSS,mistral,open
+magistral-small-2506,Magistral Small 2506,mistral,open
+magistral-small-2509,Magistral Small 2509,mistral,open
+mistral-medium-2505,Mistral Medium 2505,mistral,closed
+seed-1-6,Seed 1.6,bytedance,closed
+seed-oss-36b,Seed-OSS-36B,bytedance,open
+doubao-seed-2-1-pro,Doubao Seed 2.1 Pro,bytedance,closed
+nemotron-3-ultra,Nemotron 3 Ultra,nvidia,open
+muse-spark,Muse Spark,nexusflow,unknown
+muse-spark-1-3,Muse Spark 1.3,nexusflow,unknown
+muse-wonder-1-0,Muse Wonder 1.0,nexusflow,unknown
+muse-spark-open,Muse Spark Open 816B,nexusflow,open
+inkling,Inkling,parallax,unknown
+inkling-small,Inkling Small,parallax,unknown
+claude-sonnet-4-6,Claude Sonnet 4.6,anthropic,closed
+deepseek-r1-distill-qwen-14b,DeepSeek-R1-Distill-Qwen-14B,deepseek,open
+deepseek-r1-distill-qwen-1-5b,DeepSeek-R1-Distill-Qwen-1.5B,deepseek,open
+eurus-2-7b-prime,Eurus-2-7B-PRIME,primewise,open
+llama-2-70b,Llama 2 70B,meta,open
+llama-3-1-70b,Llama 3.1 70B,meta,open
+llama-3-1-8b,Llama 3.1 8B,meta,open
+llama-3-2-1b,Llama 3.2 1B,meta,open
+llama-3-2-90b-vision,Llama 3.2 90B Vision,meta,open
+llama-3-70b,Llama 3 70B,meta,open
+llama-3-8b,Llama 3 8B,meta,open
+llama-3-1-tulu-3-70b,Tulu 3 70B,ai2,open
+mistral-7b-v03,Mistral 7B v0.3,mistral,open
+mixtral-8x7b,Mixtral 8x7B,mistral,open
+mixtral-8x22b,Mixtral 8x22B,mistral,open
+mistral-nemo-2407,Mistral Nemo 2407,mistral,open
+mistral-small-2501,Mistral Small 2501,mistral,open
+mistral-small-2503,Mistral Small 2503,mistral,open
+mistral-small-2506,Mistral Small 2506,mistral,open
+ministral-3b-2410,Ministral 3B 2410,mistral,open
+ministral-8b-2410,Ministral 8B 2410,mistral,open
+qwen1-5-32b,Qwen1.5-32B,alibaba,open
+qwen1-5-72b,Qwen1.5-72B,alibaba,open
+qwen2-72b,Qwen2-72B,alibaba,open
+qwen2-5-7b,Qwen2.5-7B,alibaba,open
+qwen3-14b,Qwen3-14B,alibaba,open
+qwen3-8b,Qwen3-8B,alibaba,open
+qwen3-4b,Qwen3-4B,alibaba,open
+qwen3-1-7b,Qwen3-1.7B,alibaba,open
+qwen-max-2025-01-25,Qwen Max 2025-01-25,alibaba,closed
+qwen-plus-2025-01-25,Qwen Plus 2025-01-25,alibaba,closed
+qwen-turbo-2024-11-01,Qwen Turbo 2024-11-01,alibaba,closed
+qwen3-5-flash,Qwen3.5-Flash,alibaba,closed
+qwen3-5-plus,Qwen3.5-Plus,alibaba,closed
+qwen3-5-9b,Qwen3.5-9B,alibaba,open
+qwen3-5-4b,Qwen3.5-4B,alibaba,open
+qwen3-6-27b,Qwen3.6-27B,alibaba,open
+qwen3-6-35b-a3b,Qwen3.6-35B-A3B,alibaba,open
+qwen3-6-flash,Qwen3.6-Flash,alibaba,closed
+qwen3-6-plus,Qwen3.6-Plus,alibaba,closed
+qwen3-7-flash,Qwen3.7-Flash,alibaba,closed
+qwen3-8-max-0902,Qwen3.8-Max-0902,alibaba,closed
+deepseek-chat,DeepSeek Chat (V2.5),deepseek,closed
+deepseek-llm-67b,DeepSeek LLM 67B,deepseek,open
+deepseek-reasoner,DeepSeek Reasoner (R1 API),deepseek,closed
+gemma-2-27b,Gemma 2 27B,google,open
+gemma-2-9b,Gemma 2 9B,google,open
+gemma-3-4b,Gemma 3 4B,google,open
+gemma-3-1b,Gemma 3 1B,google,open
+gemma-4-26b,Gemma 4 26B,google,open
+gemma-4-31b,Gemma 4 31B,google,open
+granite-4-0-1b,Granite 4.0 1B,ibm,open
+granite-4-0-350m,Granite 4.0 350M,ibm,open
+granite-4-0-micro,Granite 4.0 Micro,ibm,open
+granite-4-0-h-tiny,Granite 4.0 H-Tiny,ibm,open
+yi-1-5-34b,Yi-1.5-34B,01ai,open
+yi-34b,Yi-34B,01ai,open
+phi-4,Phi-4,microsoft,open
+phi-3-medium-128k,Phi-3 Medium 128k,microsoft,open
+dbrx,DBRX,databricks,open
+hermes-2-theta-llama-3-70b,Hermes 2 Theta Llama 3 70B,nousresearch,open
+wizardlm-2-8x22b,WizardLM-2 8x22B,microsoft,open
+baichuan-2-7b,Baichuan 2 7B,baichuan,open
+nova-lite-v1,Amazon Nova Lite,amazon,closed
+deepseek-r1-distill-qwen-8b,DeepSeek-R1-Distill-Qwen-8B (0528),deepseek,open
+doubao-seed-2-0-lite,Doubao Seed 2.0 Lite,bytedance,closed
+doubao-seed-2-0-pro,Doubao Seed 2.0 Pro,bytedance,closed
+doubao-seed-2-1-turbo,Doubao Seed 2.1 Turbo,bytedance,closed
+doubao-seed-evolving,Doubao Seed Evolving,bytedance,closed
+claude-2-0,Claude 2.0,anthropic,closed
+claude-2-1,Claude 2.1,anthropic,closed
+claude-3-5-haiku,Claude 3.5 Haiku,anthropic,closed
+claude-3-haiku,Claude 3 Haiku,anthropic,closed
+claude-3-opus,Claude 3 Opus,anthropic,closed
+claude-3-sonnet,Claude 3 Sonnet,anthropic,closed
+claude-opus-4,Claude Opus 4,anthropic,closed
+claude-sonnet-4,Claude Sonnet 4,anthropic,closed
+gemini-1-0-pro,Gemini 1.0 Pro,google,closed
+gemini-1-5-flash,Gemini 1.5 Flash,google,closed
+gemini-1-5-flash-8b,Gemini 1.5 Flash 8B,google,closed
+gemini-1-5-pro,Gemini 1.5 Pro,google,closed
+gemini-2-0-flash-thinking,Gemini 2.0 Flash Thinking,google,closed
+gemini-2-0-pro,Gemini 2.0 Pro,google,closed
+gemini-2-5-pro-preview,Gemini 2.5 Pro Preview,google,closed
+gemini-3-1-pro-customtools,Gemini 3.1 Pro (custom tools),google,closed
+gpt-3-5-turbo,GPT-3.5 Turbo,openai,closed
+gpt-4,GPT-4,openai,closed
+gpt-4-turbo,GPT-4 Turbo,openai,closed
+gpt-4-0125-preview,GPT-4 Turbo (0125 preview),openai,closed
+gpt-4-1106-preview,GPT-4 Turbo (1106 preview),openai,closed
+grok-4-20,Grok 4.20,xai,closed
+qwen3-4b-instruct,Qwen3-4B-Instruct-2507,alibaba,open
+step-2-16k,Step-2 16k,stepfun,closed
+hunyuan-turbos,Hunyuan TurboS,tencent,closed
+olmo-2-13b,OLMo 2 13B,ai2,open
+llama-2-7b,Llama 2 7B,meta,open
+unknown-azerogpt,Unknown (unmapped): azerogpt,UNKNOWN_CO,unknown
+unknown-dracarys-llama-3-1-70b-instruct,Unknown (unmapped): dracarys llama 3 1 70b instruct,UNKNOWN_CO,unknown
+unknown-arcee-trinity-large-preview,Unknown (unmapped): arcee trinity large preview,UNKNOWN_CO,unknown
+unknown-qwen1-5-0-5b-chat,Unknown (unmapped): qwen1 5 0 5b chat,UNKNOWN_CO,unknown
+unknown-nemotron-3-super,Unknown (unmapped): nemotron 3 super,UNKNOWN_CO,unknown
+unknown-claude-4-opus-20250514-base,Unknown (unmapped): claude 4 opus 20250514 base,UNKNOWN_CO,unknown
+unknown-qwen2-7b-instruct,Unknown (unmapped): qwen2 7b instruct,UNKNOWN_CO,unknown
+unknown-claude-4-1-opus-20250805-thinking-32k,Unknown (unmapped): claude 4 1 opus 20250805 thinking 32k,UNKNOWN_CO,unknown
+unknown-claude-4-opus-20250514-thinking-32k,Unknown (unmapped): claude 4 opus 20250514 thinking 32k,UNKNOWN_CO,unknown
+unknown-dracarys-72b-instruct,Unknown (unmapped): dracarys 72b instruct,UNKNOWN_CO,unknown
+unknown-phi-3-mini-128k-instruct,Unknown (unmapped): phi 3 mini 128k instruct,UNKNOWN_CO,unknown
+unknown-phi-3-small-8k-instruct,Unknown (unmapped): phi 3 small 8k instruct,UNKNOWN_CO,unknown
+unknown-command-r-08-2024,Unknown (unmapped): command r 08 2024,UNKNOWN_CO,unknown
+unknown-qwen1-5-1-8b-chat,Unknown (unmapped): qwen1 5 1 8b chat,UNKNOWN_CO,unknown
+unknown-gemma-1-1-7b-it,Unknown (unmapped): gemma 1 1 7b it,UNKNOWN_CO,unknown
+unknown-mimo-v2-pro,Unknown (unmapped): mimo v2 pro,UNKNOWN_CO,unknown
+unknown-phi-3-mini-4k-instruct,Unknown (unmapped): phi 3 mini 4k instruct,UNKNOWN_CO,unknown
+unknown-qwen1-5-110b-chat,Unknown (unmapped): qwen1 5 110b chat,UNKNOWN_CO,unknown
+unknown-perplexity-sonar,Unknown (unmapped): perplexity sonar,UNKNOWN_CO,unknown
+unknown-qwen2-0-5b-instruct,Unknown (unmapped): qwen2 0 5b instruct,UNKNOWN_CO,unknown
+unknown-phi-3-small-128k-instruct,Unknown (unmapped): phi 3 small 128k instruct,UNKNOWN_CO,unknown
+unknown-phi-3-5-moe-instruct,Unknown (unmapped): phi 3 5 moe instruct,UNKNOWN_CO,unknown
+unknown-claude-3-7-sonnet-20250219-base,Unknown (unmapped): claude 3 7 sonnet 20250219 base,UNKNOWN_CO,unknown
+unknown-qwen2-1-5b-instruct,Unknown (unmapped): qwen2 1 5b instruct,UNKNOWN_CO,unknown
+unknown-perplexity-sonar-pro,Unknown (unmapped): perplexity sonar pro,UNKNOWN_CO,unknown
+unknown-dracarys2-llama-3-1-70b-instruct,Unknown (unmapped): dracarys2 llama 3 1 70b instruct,UNKNOWN_CO,unknown
+unknown-qwen1-5-4b-chat,Unknown (unmapped): qwen1 5 4b chat,UNKNOWN_CO,unknown
+unknown-claude-4-sonnet-20250514-base,Unknown (unmapped): claude 4 sonnet 20250514 base,UNKNOWN_CO,unknown
+unknown-command-r,Unknown (unmapped): command r,UNKNOWN_CO,unknown
+unknown-command-a-03-2025,Unknown (unmapped): command a 03 2025,UNKNOWN_CO,unknown
+unknown-phi-3-5-mini-instruct,Unknown (unmapped): phi 3 5 mini instruct,UNKNOWN_CO,unknown
+unknown-qwen1-5-7b-chat,Unknown (unmapped): qwen1 5 7b chat,UNKNOWN_CO,unknown
+unknown-elephant-alpha,Unknown (unmapped): elephant alpha,UNKNOWN_CO,unknown
+unknown-command-r-plus-08-2024,Unknown (unmapped): command r plus 08 2024,UNKNOWN_CO,unknown
+unknown-dracarys2-72b-instruct,Unknown (unmapped): dracarys2 72b instruct,UNKNOWN_CO,unknown
+unknown-yi-6b-chat,Unknown (unmapped): yi 6b chat,UNKNOWN_CO,unknown
+unknown-command-r-plus,Unknown (unmapped): command r plus,UNKNOWN_CO,unknown
+unknown-claude-4-sonnet-20250514-thinking-64k,Unknown (unmapped): claude 4 sonnet 20250514 thinking 64k,UNKNOWN_CO,unknown
+unknown-claude-4-1-opus-20250805-base,Unknown (unmapped): claude 4 1 opus 20250805 base,UNKNOWN_CO,unknown

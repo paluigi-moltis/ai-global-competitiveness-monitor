@@ -11,14 +11,21 @@ import requests
 from common import RAW_DIR
 
 
-def archive_raw(source: str, payload, label: str | None = None) -> Path:
-    """Store an original source response under data/raw/<source>/<date>/[label].json."""
+def archive_raw(source: str, payload, label: str | None = None, *,
+                content: bytes | None = None, ext: str = "json") -> Path:
+    """Store an original source response under data/raw/<source>/<date>/.
+
+    Either pass `payload` (dict/list -> pretty JSON, else str) or `content`
+    (raw bytes with a matching `ext`, e.g. downloaded zip/csv files).
+    """
     day = dt.date.today().isoformat()
     out_dir = RAW_DIR / source / day
     out_dir.mkdir(parents=True, exist_ok=True)
-    name = f"{label or 'response'}.json"
+    name = f"{label or 'response'}.{ext}"
     path = out_dir / name
-    if isinstance(payload, (dict, list)):
+    if content is not None:
+        path.write_bytes(content)
+    elif isinstance(payload, (dict, list)):
         path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
     else:
         path.write_text(str(payload))

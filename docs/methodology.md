@@ -116,19 +116,32 @@ with an explicitly documented input/output mix assumption and **archived
 historical prices** where available (otherwise labelled "current prices").
 Zero weight by default until reliability is assessed.
 
-### Downloads
+### Epoch AI (benchmarks)
 
-- **Hugging Face**: the public `downloads` field is a **cumulative rolling
-  30-day counter**, not a daily increment. Only levels are collected; daily
-  changes must be derived in processing with explicit documentation of the
-  counter semantics.
-- **ModelScope**: counter semantics to be verified before any change
-  computation (Phase 2+).
-- **Ollama**: pull counts are shown for some models on the library page;
-  availability and semantics unverified (Phase 2+).
-- **Platform separation**: geographical shares are computed within each
-  platform. Raw counts are never summed across platforms: counters measure
-  different things over different windows.
+- Source: public `benchmark_data.zip` (epoch.ai/data), CC BY 4.0, no auth.
+- Ingests GPQA Diamond, MATH Level 5, OTIS Mock AIME 2024-2025 (proxy for
+  AIME-class competition math), SWE-bench Verified (Epoch's own runs).
+- `date` is the model release date (Epoch does not expose per-row evaluation
+  dates); scores normalised to 0-1 via the zip's `benchmark_metadata.csv`
+  scale column.
+- Epoch model-version ids carry reasoning-effort suffixes (`_high`, `_max`,
+  `_64K`, …); all variants of a model map to the same canonical model.
+
+### LiveBench
+
+- Source: per-release CSVs (`table_<release>.csv`) published in the
+  LiveBench/livebench.github.io repo - 11 releases, 2024-06-24 → 2026-06-25.
+- Score = mean over all task columns / 100 (site's own averaging).
+- Caveat: LiveBench 2.0 (2026-06-25) changed the task mix; cross-release
+  comparability is approximate around that date. Each release is stored as a
+  separate dated observation, never replacing earlier ones.
+
+### Download counters (Hugging Face / ModelScope / Ollama)
+
+All three publish **cumulative levels** with undocumented or rolling-window
+semantics. The pipeline stores levels only; no daily increments are derived
+anywhere. Geographical shares are computed within each platform per
+snapshot; raw counts are never summed across platforms.
 
 ## Historical calculation rules
 
@@ -160,7 +173,17 @@ frontend never receives any key.
 - No reliable historical daily usage data before OpenRouter's dataset start
   (2025-01-01).
 - Spending estimates absent until prices are archived.
-- Ollama pulls unavailable as a reliable comparable metric (as of writing).
-- Several Chinese-benchmark series lack systematic non-Chinese-model history.
+- **LMArena**: leaderboard API returns 403 to unauthenticated clients; the
+  human-preference component is empty until an accessible historical source
+  is found (HF battle datasets are preference pairs, not Elo series).
+- **LiveCodeBench**: reachable as an HF dataset but requires problem-window
+  bookkeeping (scores are only valid for post-cutoff windows); not yet
+  collected.
+- **Chinese benchmarks** (C-Eval, CMMLU, SuperCLUE): no public historical
+  score series found without registration; components stay empty.
+- Benchmark coverage: capability components currently draw on GPQA Diamond,
+  MATH, AIME, SWE-bench Verified and LiveBench only.
+- Download counters are cumulative levels with undocumented semantics on
+  ModelScope and Ollama; only HF documents its rolling 30-day window.
 - ModelScope/semantic verification pending; components stay empty rather than
   approximated.

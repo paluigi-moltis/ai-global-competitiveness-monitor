@@ -97,16 +97,21 @@ def run_source(source: str, days: int | None) -> bool:
         return False
 
     import pandas as pd
-    df = pd.DataFrame(rows)
-    dataset = df.attrs.get("dataset") or rows[0].get("_dataset", "usage")
-    if "_dataset" in df.columns:
-        df = df.drop(columns=["_dataset"])
-    std = standardise(dataset, df, source=source)
-    name = dataset if dataset not in ("downloads", "usage_shares") else f"{dataset}_{source}"
-    merge_keys = DATASET_KEYS.get(dataset)  # idempotent append, history preserved
-    common.write_processed(name, std, merge_keys=merge_keys)
-    log.info("%s: %d standardised %s rows", source, len(std), dataset)
-    return True
+    ok = True
+    # a collector may emit multiple datasets (e.g. HF: downloads + metadata);
+    # split by the rows' _dataset marker and standardise/write each part
+    parts: dict[str, list[dict]] = {}
+    for r in rows:
+        parts.setdefault(r.get("_dataset", "usage"), []).append(r)
+    for dataset, part in parts.items():
+        df = pd.DataFrame(part).drop(columns=["_dataset"], errors="ignore")
+        std = standardise(dataset, df, source=source)
+        name = (dataset if dataset not in ("downloads", "usage_shares")
+                else f"{dataset}_{source}")
+        merge_keys = DATASET_KEYS.get(dataset)  # idempotent append
+        common.write_processed(name, std, merge_keys=merge_keys)
+        log.info("%s: %d standardised %s rows", source, len(std), dataset)
+    return ok
 
 
 def main() -> int:

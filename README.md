@@ -26,13 +26,14 @@ dashboard land in Phases 2 and 4 - see [Roadmap](#roadmap).
 |---|---|
 | Config schemas (companies, models, mapping, benchmarks, country→geography) | ✅ done |
 | Excel weights template (`scripts/build_weights_template.py` → `config/weights.xlsx`) | ✅ done |
-| Entity mapping + geography classification | ✅ done, tested |
+| Entity mapping + geography classification | ✅ done, tested (969 source ids mapped) |
 | Standardised Parquet schemas | ✅ done, tested |
 | `process.py` (metrics, indicators, composite indices, historical series) | ✅ done, tested |
 | Capability / adoption indicators + composite index math | ✅ done, tested |
 | Collector framework + raw archiving | ✅ done |
-| OpenRouter collector (current `rankings-daily` Data API) | ✅ implemented |
-| Other collectors (Epoch, LMArena, HF, ModelScope, …) | ⏳ Phase 2 |
+| Collectors: Epoch, LiveBench, Hugging Face, ModelScope, Ollama | ✅ implemented, live-verified |
+| Collectors: OpenRouter, Vercel AI Gateway | ✅ implemented |
+| Collectors: LMArena, Artificial Analysis, LiveCodeBench | ⏳ blocked/Phase 2+ (see source table) |
 | Static dashboard (Pico.css + Plotly.js + DuckDB-Wasm) | ⏳ Phase 4 |
 
 ## Architecture
@@ -204,15 +205,15 @@ Index(g,t) = Σ w_i · x(i,g,t) / Σ_{i ∈ A(g,t)} w_i
 |---|---|---|
 | OpenRouter | usage tokens, estimated spending | implemented (`rankings-daily` Data API, key required, CC BY 4.0) |
 | Vercel AI Gateway | model usage shares (tokens/requests/spend) | implemented (public `leaderboard-export`, no key, CC BY 4.0, shares from 2025-10-01) |
-| Epoch AI | model + benchmark history | Phase 2 |
-| LMArena | human-preference Elo | Phase 2 |
-| Artificial Analysis | evaluations/rankings | Phase 2 (API terms to verify) |
-| Hugging Face | metadata, downloads (cumulative 30-day counter) | Phase 2 |
-| ModelScope | metadata, downloads (CN platform) | Phase 2+ |
-| Ollama | catalogue, pull indicators | Phase 2+ |
-| LiveBench | benchmark scores | Phase 2 |
-| LiveCodeBench | coding scores | Phase 2 |
-| SWE-bench | SWE-bench Verified scores | Phase 2 |
+| Epoch AI | benchmark history (GPQA, MATH, AIME, SWE-bench) | implemented (public `benchmark_data.zip`, no key, CC BY 4.0) |
+| LMArena | human-preference Elo | deferred: `lmarena.ai` API returns 403 to unauthenticated clients; revisit via HF datasets or public snapshots |
+| Artificial Analysis | evaluations/rankings | Phase 2+ (API terms to verify) |
+| Hugging Face | metadata, downloads (cumulative rolling 30-day counter) | implemented (public API, levels only) |
+| ModelScope | metadata, downloads (CN platform) | implemented (per-repo public API; counter semantics undocumented - levels only) |
+| Ollama | download counts from library pages | implemented (HTML scrape; semantics undocumented - levels only) |
+| LiveBench | benchmark scores | implemented (per-release CSVs, 11 releases 2024-06 → 2026-06) |
+| LiveCodeBench | coding scores | Phase 2 (HF dataset `livecodebench/execution-v2` verified reachable; needs problem-window bookkeeping) |
+| SWE-bench | SWE-bench Verified scores | implemented via Epoch AI's own Verified runs (official repo publishes no results file) |
 
 Public APIs and documented endpoints only; rate limits and source terms
 respected; raw responses archived under `data/raw/` so processing is
