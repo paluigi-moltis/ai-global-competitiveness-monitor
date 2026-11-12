@@ -1,0 +1,26 @@
+company_id,company_name,hq_country,geography
+openai,OpenAI,US,US
+anthropic,Anthropic,US,US
+google,Google,US,US
+meta,Meta,US,US
+nvidia,NVIDIA,US,US
+mistral,Mistral AI,FR,EU
+deepseek,DeepSeek,CN,China
+alibaba,Alibaba,CN,China
+zhipu,Zhipu AI (Z.ai),CN,China
+moonshot,Moonshot AI,CN,China
+minimax,MiniMax,CN,China
+tencent,Tencent,CN,China
+bytedance,ByteDance,CN,China
+qwen,Qwen Team (Alibaba),CN,China
+01ai,01.AI,CN,China
+baidu,Baidu,CN,China
+stepfun,StepFun,CN,China
+xai,xAI,US,US
+microsoft,Microsoft,US,US
+cohere,Cohere,CA,RoW
+mistral-community,Mistral Community,FR,EU
+ai2,AI2 (Allen Institute),US,US
+deepcogito,DeepCogito,IN,RoW
+nexusflow,NexusFlow,US,US
+reka,Reka AI,SG,RoW

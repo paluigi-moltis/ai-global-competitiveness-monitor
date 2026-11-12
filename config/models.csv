@@ -1,0 +1,37 @@
+model_id,model_name,company_id,weights_status
+gpt-5,GPT-5,openai,closed
+gpt-5-mini,GPT-5 Mini,openai,closed
+o3,OpenAI o3,openai,closed
+gpt-4.1,GPT-4.1,openai,closed
+gpt-4o,GPT-4o,openai,closed
+gpt-oss-120b,gpt-oss-120b,openai,open
+gpt-oss-20b,gpt-oss-20b,openai,open
+claude-opus-4-1,Claude Opus 4.1,anthropic,closed
+claude-sonnet-4-5,Claude Sonnet 4.5,anthropic,closed
+claude-3-7-sonnet,Claude 3.7 Sonnet,anthropic,closed
+gemini-2-5-pro,Gemini 2.5 Pro,google,closed
+gemini-2-5-flash,Gemini 2.5 Flash,google,closed
+gemini-2-0-flash,Gemini 2.0 Flash,google,closed
+llama-4-maverick,Llama 4 Maverick,meta,open
+llama-4-scout,Llama 4 Scout,meta,open
+llama-3-3-70b,Llama 3.3 70B,meta,open
+deepseek-v3-1,DeepSeek-V3.1,deepseek,open
+deepseek-r1,DeepSeek-R1,deepseek,open
+deepseek-v3,DeepSeek-V3,deepseek,open
+qwen3-235b,Qwen3 235B A22B,qwen,open
+qwen3-32b,Qwen3 32B,qwen,open
+qwen2-5-72b,Qwen2.5 72B,qwen,open
+glm-4-6,GLM-4.6,zhipu,open
+glm-4-5,GLM-4.5,zhipu,open
+kimi-k2,Kimi K2,moonshot,open
+minimax-m2,MiniMax M2,minimax,open
+minimax-m1,MiniMax M1,minimax,open
+grok-4,Grok 4,xai,closed
+grok-3,Grok 3,xai,closed
+mistral-large-2411,Mistral Large (24.11),mistral,closed
+mistral-medium-3,Mistral Medium 3,mistral,closed
+mistral-small-3-2,Mistral Small 3.2,mistral,open
+devstral-small,Devstral Small,mistral,open
+command-a,Command A,cohere,open
+olmo-3,O-LMo 3,ai2,open
+tongyi-deepresearch-30b,Tongyi DeepResearch 30B,qwen,open

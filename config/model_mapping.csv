@@ -1,0 +1,180 @@
+source,source_model_id,model_id
+openrouter,openai/gpt-5,gpt-5
+openrouter,openai/gpt-5-mini,gpt-5-mini
+openrouter,openai/o3,o3
+openrouter,openai/gpt-4.1,gpt-4.1
+openrouter,openai/gpt-4o,gpt-4o
+openrouter,openai/gpt-oss-120b,gpt-oss-120b
+openrouter,openai/gpt-oss-20b,gpt-oss-20b
+openrouter,anthropic/claude-opus-4.1,claude-opus-4-1
+openrouter,anthropic/claude-sonnet-4.5,claude-sonnet-4-5
+openrouter,anthropic/claude-3.7-sonnet,claude-3-7-sonnet
+openrouter,google/gemini-2.5-pro,gemini-2-5-pro
+openrouter,google/gemini-2.5-flash,gemini-2-5-flash
+openrouter,google/gemini-2.0-flash-001,gemini-2-0-flash
+openrouter,meta-llama/llama-4-maverick,llama-4-maverick
+openrouter,meta-llama/llama-4-scout,llama-4-scout
+openrouter,meta-llama/llama-3.3-70b-instruct,llama-3-3-70b
+openrouter,deepseek/deepseek-chat-v3.1,deepseek-v3-1
+openrouter,deepseek/deepseek-r1,deepseek-r1
+openrouter,deepseek/deepseek-chat,deepseek-v3
+openrouter,qwen/qwen3-235b-a22b,qwen3-235b
+openrouter,qwen/qwen3-32b,qwen3-32b
+openrouter,qwen/qwen-2.5-72b-instruct,qwen2-5-72b
+openrouter,z-ai/glm-4.6,glm-4-6
+openrouter,z-ai/glm-4.5,glm-4-5
+openrouter,moonshotai/kimi-k2,kimi-k2
+openrouter,minimax/minimax-m2,minimax-m2
+openrouter,minimax/minimax-m1,minimax-m1
+openrouter,x-ai/grok-4,grok-4
+openrouter,x-ai/grok-3,grok-3
+openrouter,mistralai/mistral-large-2411,mistral-large-2411
+openrouter,mistralai/mistral-medium-3,mistral-medium-3
+openrouter,mistralai/mistral-small-3.2-24b-instruct,mistral-small-3-2
+openrouter,mistralai/devstral-small,devstral-small
+openrouter,cohere/command-a,command-a
+epoch,gpt-5,gpt-5
+epoch,gpt-5-mini,gpt-5-mini
+epoch,o3,o3
+epoch,gpt-4.1,gpt-4.1
+epoch,gpt-4o,gpt-4o
+epoch,gpt-4o-2024-11-13,gpt-4o
+epoch,gpt-oss-120b,gpt-oss-120b
+epoch,gpt-oss-20b,gpt-oss-20b
+epoch,claude-opus-4-1,claude-opus-4-1
+epoch,claude-sonnet-4-5,claude-sonnet-4-5
+epoch,claude-3-7-sonnet,claude-3-7-sonnet
+epoch,gemini-2-5-pro,gemini-2-5-pro
+epoch,gemini-2-5-flash,gemini-2-5-flash
+epoch,gemini-2-0-flash,gemini-2-0-flash
+epoch,llama-4-maverick,llama-4-maverick
+epoch,llama-4-scout,llama-4-scout
+epoch,llama-3-3-70b,llama-3-3-70b
+epoch,deepseek-v3-1,deepseek-v3-1
+epoch,deepseek-r1,deepseek-r1
+epoch,deepseek-v3,deepseek-v3
+epoch,qwen3-235b-a22b,qwen3-235b
+epoch,qwen3-32b,qwen3-32b
+epoch,qwen2-5-72b,qwen2-5-72b
+epoch,glm-4-6,glm-4-6
+epoch,glm-4-5,glm-4-5
+epoch,kimi-k2,kimi-k2
+epoch,minimax-m2,minimax-m2
+epoch,minimax-m1,minimax-m1
+epoch,grok-4,grok-4
+epoch,grok-3,grok-3
+epoch,mistral-large-2411,mistral-large-2411
+epoch,mistral-medium-3,mistral-medium-3
+epoch,mistral-small-3-2,mistral-small-3-2
+epoch,command-a,command-a
+epoch,olmo-3,olmo-3
+huggingface,openai/gpt-oss-120b,gpt-oss-120b
+huggingface,openai/gpt-oss-20b,gpt-oss-20b
+huggingface,meta-llama/Llama-4-Maverick-17B-128E-Instruct,llama-4-maverick
+huggingface,meta-llama/Llama-4-Scout-17B-16E-Instruct,llama-4-scout
+huggingface,meta-llama/Llama-3.3-70B-Instruct,llama-3-3-70b
+huggingface,deepseek-ai/DeepSeek-V3.1,deepseek-v3-1
+huggingface,deepseek-ai/DeepSeek-R1,deepseek-r1
+huggingface,deepseek-ai/DeepSeek-V3,deepseek-v3
+huggingface,Qwen/Qwen3-235B-A22B,qwen3-235b
+huggingface,Qwen/Qwen3-32B,qwen3-32b
+huggingface,Qwen/Qwen2.5-72B-Instruct,qwen2-5-72b
+huggingface,zai-org/GLM-4.6,glm-4-6
+huggingface,zai-org/GLM-4.5,glm-4-5
+huggingface,moonshotai/Kimi-K2-Instruct,kimi-k2
+huggingface,MiniMaxAI/MiniMax-M2,minimax-m2
+huggingface,mistralai/Mistral-Small-3.2-24B-Instruct-2506,mistral-small-3-2
+huggingface,mistralai/Devstral-Small-2507,devstral-small
+huggingface,CohereForAI/c4ai-command-a-03-2025,command-a
+huggingface,allenai/Olmo-3-32B-Think,olmo-3
+huggingface,Qwen/Qwen3-30B-A3B,qwen3-30b-a3b
+modelscope,openai/gpt-oss-120b,gpt-oss-120b
+modelscope,openai/gpt-oss-20b,gpt-oss-20b
+modelscope,deepseek-ai/DeepSeek-V3.1,deepseek-v3-1
+modelscope,deepseek-ai/DeepSeek-R1,deepseek-r1
+modelscope,deepseek-ai/DeepSeek-V3,deepseek-v3
+modelscope,Qwen/Qwen3-235B-A22B,qwen3-235b
+modelscope,Qwen/Qwen3-32B,qwen3-32b
+modelscope,zai-org/GLM-4.6,glm-4-6
+modelscope,moonshotai/Kimi-K2-Instruct,kimi-k2
+ollama,gpt-oss:120b,gpt-oss-120b
+ollama,gpt-oss:20b,gpt-oss-20b
+ollama,llama4:maverick,llama-4-maverick
+ollama,llama4:scout,llama-4-scout
+ollama,llama3.3:70b,llama-3-3-70b
+ollama,deepseek-v3.1:671b,deepseek-v3-1
+ollama,deepseek-r1:671b,deepseek-r1
+ollama,qwen3:235b,qwen3-235b
+ollama,qwen3:32b,qwen3-32b
+ollama,qwen2.5:72b,qwen2-5-72b
+ollama,glm4.6:671b,glm-4-6
+ollama,kimi-k2:1t,kimi-k2
+ollama,minimax-m2:minimax-m2,minimax-m2
+ollama,mistral-small3.2:24b,mistral-small-3-2
+ollama,devstral:24b,devstral-small
+arena,gpt-5-2025-08-07,gpt-5
+arena,gpt-5-mini-2025-08-07,gpt-5-mini
+arena,o3-2025-04-16,o3
+arena,gpt-4.1-2025-04-14,gpt-4.1
+arena,gpt-4o-2024-11-20,gpt-4o
+arena,gpt-oss-120b,gpt-oss-120b
+arena,claude-opus-4.1-20250805,claude-opus-4-1
+arena,claude-sonnet-4.5-20250929,claude-sonnet-4-5
+arena,claude-3-7-sonnet-20250219,claude-3-7-sonnet
+arena,gemini-2.5-pro-06-05,gemini-2-5-pro
+arena,gemini-2.5-flash,gemini-2-5-flash
+arena,gemini-2.0-flash-001,gemini-2-0-flash
+arena,llama-4-maverick-03-26-experimental,llama-4-maverick
+arena,llama-4-scout-03-26-experimental,llama-4-scout
+arena,llama-3.3-70b-instruct,llama-3-3-70b
+arena,deepseek-v3.1,deepseek-v3-1
+arena,deepseek-r1-0528,deepseek-r1
+arena,deepseek-chat-v3-0324,deepseek-v3
+arena,qwen3-235b-a22b,qwen3-235b
+arena,qwen3-32b,qwen3-32b
+arena,qwen2.5-72b-instruct,qwen2-5-72b
+arena,glm-4.6,glm-4-6
+arena,glm-4.5,glm-4-5
+arena,kimi-k2-0905-preview,kimi-k2
+arena,minimax-m2,minimax-m2
+arena,minimax-m1-40k,minimax-m1
+arena,grok-4-0709-preview,grok-4
+arena,grok-3,grok-3
+arena,mistral-large-2411,mistral-large-2411
+arena,mistral-medium-3.1,mistral-medium-3
+arena,mistral-small-3.2-24b-instruct-2506,mistral-small-3-2
+arena,command-a-03-2025,command-a
+arena,tongyi-deepresearch-30b-a3b,tongyi-deepresearch-30b
+artificial_analysis,gpt-5,gpt-5
+artificial_analysis,GPT-5 mini,gpt-5-mini
+artificial_analysis,o3,o3
+artificial_analysis,GPT-4.1,gpt-4.1
+artificial_analysis,GPT-4o,gpt-4o
+artificial_analysis,gpt-oss-120b,gpt-oss-120b
+artificial_analysis,gpt-oss-20b,gpt-oss-20b
+artificial_analysis,Claude Opus 4.1,claude-opus-4-1
+artificial_analysis,Claude Sonnet 4.5,claude-sonnet-4-5
+artificial_analysis,Claude 3.7 Sonnet,claude-3-7-sonnet
+artificial_analysis,Gemini 2.5 Pro,gemini-2-5-pro
+artificial_analysis,Gemini 2.5 Flash,gemini-2-5-flash
+artificial_analysis,Gemini 2.0 Flash,gemini-2-0-flash
+artificial_analysis,Llama 4 Maverick,llama-4-maverick
+artificial_analysis,Llama 4 Scout,llama-4-scout
+artificial_analysis,Llama 3.3 70B,llama-3-3-70b
+artificial_analysis,DeepSeek V3.1,deepseek-v3-1
+artificial_analysis,DeepSeek R1,deepseek-r1
+artificial_analysis,DeepSeek V3,deepseek-v3
+artificial_analysis,Qwen3 235B A22B,qwen3-235b
+artificial_analysis,Qwen3 32B,qwen3-32b
+artificial_analysis,Qwen2.5 72B,qwen2-5-72b
+artificial_analysis,GLM 4.6,glm-4-6
+artificial_analysis,GLM 4.5,glm-4-5
+artificial_analysis,Kimi K2,kimi-k2
+artificial_analysis,MiniMax M2,minimax-m2
+artificial_analysis,MiniMax M1,minimax-m1
+artificial_analysis,Grok 4,grok-4
+artificial_analysis,Grok 3,grok-3
+artificial_analysis,Mistral Large (24.11),mistral-large-2411
+artificial_analysis,Mistral Medium 3,mistral-medium-3
+artificial_analysis,Mistral Small 3.2,mistral-small-3-2
+artificial_analysis,Command A,command-a

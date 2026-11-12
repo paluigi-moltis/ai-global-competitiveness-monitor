@@ -1,0 +1,27 @@
+[project]
+name = "ai-global-competitiveness-monitor"
+version = "0.1.0"
+description = "Lightweight data platform monitoring AI capabilities and adoption across US, China, EU and Rest of World."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "duckdb>=1.1",
+    "pyarrow>=17",
+    "openpyxl>=3.1",
+    "requests>=2.32",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["collectors", "common"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

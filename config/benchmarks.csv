@@ -1,0 +1,12 @@
+benchmark_id,benchmark_name,category,preferred_source,higher_is_better,notes
+mmlu-pro,MMLU-Pro,general_knowledge_reasoning,epoch,true,Preferred over original MMLU; Epoch AI carries score history
+gpqa-diamond,GPQA Diamond,general_knowledge_reasoning,epoch,true,Graduate-level science QA; Epoch AI carries score history
+aime,AIME 2025,mathematics,epoch,true,Competition math (AIME 2025 edition); verify editions to avoid mixing years
+math,MATH (500-sample),mathematics,epoch,true,MATH benchmark 500-problem subset; avoid mixing with full MATH
+livecodebench,LiveCodeBench,coding,livecodebench,true,Own collector; continuously refreshed problem set
+swebench,SWE-bench Verified,coding,swebench,true,Software engineering issue resolution; use Verified subset only
+livebench,LiveBench,general_reasoning,livebench,true,Own collector; contamination-free monthly-refreshed benchmark
+lmarena,LMArena (Elo),human_preference,arena,true,Own collector; human preference Elo from Chatbot Arena leaderboard
+ceval,C-Eval,chinese_benchmarks,manual,true,Chinese multi-subject exam benchmark; add source/collector once verified
+cmmlu,CMMLU,chinese_benchmarks,manual,true,Chinese multi-task language understanding; add source/collector once verified
+superclue,SuperCLUE,chinese_benchmarks,manual,true,Proprietary Chinese evaluation; public score history limited; document whatever is used
