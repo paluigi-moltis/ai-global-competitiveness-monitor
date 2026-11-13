@@ -173,9 +173,12 @@ frontend never receives any key.
 - No reliable historical daily usage data before OpenRouter's dataset start
   (2025-01-01).
 - Spending estimates absent until prices are archived.
-- **LMArena**: leaderboard API returns 403 to unauthenticated clients; the
-  human-preference component is empty until an accessible historical source
-  is found (HF battle datasets are preference pairs, not Elo series).
+- **LMArena / Arena**: implemented 2026-11-13 via the official
+  `lmarena-ai/leaderboard-dataset` HF dataset (CC BY 4.0, not gated) —
+  full leaderboard history since 2023-05. Text-arena overall categories
+  only; rating normalised by 1400. The site API itself still 403s
+  unauthenticated clients; 12 Amazon experimental-codename snapshots are
+  left unmapped by design.
 - **LiveCodeBench**: reachable as an HF dataset but requires problem-window
   bookkeeping (scores are only valid for post-cutoff windows); not yet
   collected.

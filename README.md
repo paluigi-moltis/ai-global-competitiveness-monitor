@@ -33,7 +33,7 @@ dashboard land in Phases 2 and 4 - see [Roadmap](#roadmap).
 | Collector framework + raw archiving | ✅ done |
 | Collectors: Epoch, LiveBench, Hugging Face, ModelScope, Ollama | ✅ implemented, live-verified |
 | Collectors: OpenRouter, Vercel AI Gateway | ✅ implemented |
-| Collectors: LMArena, Artificial Analysis, LiveCodeBench | ⏳ blocked/Phase 2+ (see source table) |
+| Collectors: Arena (LMArena), Artificial Analysis, LiveCodeBench | Arena ✅ implemented (official HF dataset); rest ⏳ Phase 2+ |
 | Static dashboard (Pico.css + Plotly.js + DuckDB-Wasm) | ✅ done — `web/`, serve statically, live-verified |
 
 ## Architecture
@@ -211,7 +211,7 @@ Index(g,t) = Σ w_i · x(i,g,t) / Σ_{i ∈ A(g,t)} w_i
 | OpenRouter | usage tokens, estimated spending | implemented (`rankings-daily` Data API, key required, CC BY 4.0) |
 | Vercel AI Gateway | model usage shares (tokens/requests/spend) | implemented (public `leaderboard-export`, no key, CC BY 4.0, shares from 2025-10-01) |
 | Epoch AI | benchmark history (GPQA, MATH, AIME, SWE-bench) | implemented (public `benchmark_data.zip`, no key, CC BY 4.0) |
-| LMArena | human-preference Elo | deferred: `lmarena.ai` API returns 403 to unauthenticated clients; revisit via HF datasets or public snapshots |
+| Arena (LMArena) | human-preference Elo | ✅ official HF dataset `lmarena-ai/leaderboard-dataset` (CC BY 4.0, no key); text-arena overall, full history since 2023-05 |
 | Artificial Analysis | evaluations/rankings | Phase 2+ (API terms to verify) |
 | Hugging Face | metadata, downloads (cumulative rolling 30-day counter) | implemented (public API, levels only) |
 | ModelScope | metadata, downloads (CN platform) | implemented (per-repo public API; counter semantics undocumented - levels only) |

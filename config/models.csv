@@ -284,3 +284,168 @@ unknown-yi-6b-chat,Unknown (unmapped): yi 6b chat,UNKNOWN_CO,unknown
 unknown-command-r-plus,Unknown (unmapped): command r plus,UNKNOWN_CO,unknown
 unknown-claude-4-sonnet-20250514-thinking-64k,Unknown (unmapped): claude 4 sonnet 20250514 thinking 64k,UNKNOWN_CO,unknown
 unknown-claude-4-1-opus-20250805-base,Unknown (unmapped): claude 4 1 opus 20250805 base,UNKNOWN_CO,unknown
+alpaca-13b,alpaca 13b,meta,open
+athene-70b,athene 70b,nexusflow,open
+athene-v2-chat,athene v2 chat,nexusflow,open
+aya-expanse-32b,aya expanse 32b,cohere,open
+aya-expanse-8b,aya expanse 8b,cohere,open
+chatglm-6b,chatglm 6b,zhipu,open
+chatglm2-6b,chatglm2 6b,zhipu,open
+chatglm3-6b,chatglm3 6b,zhipu,open
+code-llama-34b,code llama 34b,meta,open
+code-llama-70b,code llama 70b,meta,open
+command-r,command r,cohere,open
+command-r-plus,command r plus,cohere,open
+deepseek-coder-v2,deepseek coder v2,deepseek,open
+deepseek-v2-5,deepseek v2 5,deepseek,open
+deepseek-v3-1-terminus,deepseek v3 1 terminus,deepseek,open
+deepseek-v3-2,deepseek v3 2,deepseek,open
+deepseek-v3-2-exp,deepseek v3 2 exp,deepseek,open
+dolly-v2-12b,dolly v2 12b,databricks,open
+dolphin-mistral-7b,dolphin mistral 7b,UNKNOWN_CO,open
+ernie-5-0,ernie 5 0,baidu,closed
+ernie-5-1,ernie 5 1,baidu,closed
+fastchat-t5-3b,fastchat t5 3b,UNKNOWN_CO,open
+gemini-2-0-flash-lite,gemini 2 0 flash lite,google,closed
+gemini-2-5-flash-lite,gemini 2 5 flash lite,google,closed
+gemini-4-hydrogen,gemini 4 hydrogen,google,closed
+gemma,gemma,google,open
+gemma-1-1,gemma 1 1,google,open
+gemma-2-2b,gemma 2 2b,google,open
+gemma-3n-e4b,gemma 3n e4b,google,open
+glm-4,glm 4,zhipu,open
+glm-4-5-air,glm 4 5 air,zhipu,open
+glm-4-5v,glm 4 5v,zhipu,open
+glm-4-6v,glm 4 6v,zhipu,open
+glm-4-plus,glm 4 plus,zhipu,open
+gpt-4-5-preview,gpt 4 5 preview,openai,closed
+gpt-5-3,gpt 5 3,openai,closed
+gpt4all-13b-snoozy,gpt4all 13b snoozy,nomic,open
+granite-3-0-2b,granite 3 0 2b,ibm,open
+granite-3-0-8b,granite 3 0 8b,ibm,open
+granite-3-1-2b,granite 3 1 2b,ibm,open
+granite-3-1-8b,granite 3 1 8b,ibm,open
+granite-4-0-h-small,granite 4 0 h small,ibm,open
+granite-4-1-8b,granite 4 1 8b,ibm,open
+granite-4-2-30b,granite 4 2 30b,ibm,open
+granite-4-2-3b,granite 4 2 3b,ibm,open
+granite-4-2-8b,granite 4 2 8b,ibm,open
+grok-4-1,grok 4 1,xai,closed
+grok-4-fast,grok 4 fast,xai,closed
+guanaco-33b,guanaco 33b,meta,open
+hunyuan-large,hunyuan large,tencent,closed
+hunyuan-large-vision,hunyuan large vision,tencent,closed
+hunyuan-standard,hunyuan standard,tencent,closed
+hunyuan-standard-256k,hunyuan standard 256k,tencent,closed
+hunyuan-t1,hunyuan t1,tencent,closed
+hunyuan-turbo,hunyuan turbo,tencent,closed
+hunyuan-vision-1-5,hunyuan vision 1 5,tencent,closed
+hy3,hy3,UNKNOWN_CO,open
+intellect-3,intellect 3,UNKNOWN_CO,open
+internlm2-5-20b,internlm2 5 20b,UNKNOWN_CO,open
+jamba-1-5-large,jamba 1 5 large,ai21,open
+jamba-1-5-mini,jamba 1 5 mini,ai21,open
+koala-13b,koala 13b,meta,open
+ling-flash-2-0,ling flash 2 0,UNKNOWN_CO,open
+llama-13b,llama 13b,meta,open
+llama-2-13b,llama 2 13b,meta,open
+llama-3-2-3b,llama 3 2 3b,meta,open
+longcat-flash,longcat flash,meituan,open
+magistral-medium,magistral medium,mistral,closed
+mercury,mercury,inception,closed
+mercury-2,mercury 2,inception,closed
+mimo-v2-5,mimo v2 5,xiaomi,closed
+mimo-v2-5-pro,mimo v2 5 pro,xiaomi,closed
+mimo-v2-6-flash,mimo v2 6 flash,xiaomi,closed
+mimo-v2-6-pro,mimo v2 6 pro,xiaomi,closed
+mimo-v2-flash,mimo v2 flash,xiaomi,closed
+mimo-v2-omni,mimo v2 omni,xiaomi,closed
+mimo-v2-pro,mimo v2 pro,xiaomi,closed
+minimax-m2-5,minimax m2 5,minimax,open
+minimax-m2-7,minimax m2 7,minimax,open
+mistral-7b,mistral 7b,mistral,open
+mistral-large,mistral large,mistral,closed
+mistral-large-2,mistral large 2,mistral,closed
+mistral-large-3,mistral large 3,mistral,closed
+mistral-medium,mistral medium,mistral,closed
+mistral-medium-3-5,mistral medium 3 5,mistral,closed
+molmo-2-8b,molmo 2 8b,ai2,open
+mpt-30b-chat,mpt 30b chat,mosaicml,open
+mpt-7b-chat,mpt 7b chat,mosaicml,open
+muse-glimmer,muse glimmer,UNKNOWN_CO,open
+muse-spark-1-1,muse spark 1 1,UNKNOWN_CO,open
+muse-spark-1-2,muse spark 1 2,UNKNOWN_CO,open
+nemotron-3-5-lightning,nemotron 3 5 lightning,nvidia,open
+nemotron-3-5-super-vl,nemotron 3 5 super vl,nvidia,open
+nemotron-3-nano,nemotron 3 nano,nvidia,open
+nemotron-3-super,nemotron 3 super,nvidia,open
+nemotron-4-340b,nemotron 4 340b,nvidia,open
+nemotron-51b,nemotron 51b,nvidia,open
+nemotron-70b,nemotron 70b,nvidia,open
+nemotron-super-49b,nemotron super 49b,nvidia,open
+nemotron-ultra-253b,nemotron ultra 253b,nvidia,open
+nous-hermes-2-mixtral-8x7b,nous hermes 2 mixtral 8x7b,nousresearch,open
+nova-2-lite,nova 2 lite,amazon,closed
+nova-2-micro,nova 2 micro,amazon,closed
+nova-2-pro,nova 2 pro,amazon,closed
+olmo-2-32b,olmo 2 32b,ai2,open
+olmo-3-1-32b,olmo 3 1 32b,ai2,open
+olmo-3-1-32b-think,olmo 3 1 32b think,ai2,open
+olmo-3-32b-think,olmo 3 32b think,ai2,open
+olmo-7b,olmo 7b,ai2,open
+openassistant-pythia-12b,openassistant pythia 12b,UNKNOWN_CO,open
+openchat-3-5,openchat 3 5,nousresearch,open
+openhermes-2-5-mistral-7b,openhermes 2 5 mistral 7b,nousresearch,open
+palm-2,palm 2,google,closed
+phi-3-mini,phi 3 mini,microsoft,open
+phi-3-mini-128k,phi 3 mini 128k,microsoft,open
+phi-3-small-8k,phi 3 small 8k,microsoft,open
+qwen-14b,qwen 14b,qwen,open
+qwen-max,qwen max,qwen,closed
+qwen-plus,qwen plus,qwen,closed
+qwen1-5-110b,qwen1 5 110b,qwen,open
+qwen1-5-14b,qwen1 5 14b,qwen,open
+qwen1-5-4b,qwen1 5 4b,qwen,open
+qwen1-5-7b,qwen1 5 7b,qwen,open
+qwen2-5-coder-32b,qwen2 5 coder 32b,qwen,open
+qwen2-5-max,qwen2 5 max,qwen,closed
+qwen2-5-plus,qwen2 5 plus,qwen,closed
+qwen3-5-122b,qwen3 5 122b,qwen,open
+qwen3-5-27b,qwen3 5 27b,qwen,open
+qwen3-8-27b,qwen3 8 27b,qwen,open
+qwen3-coder-480b,qwen3 coder 480b,qwen,open
+qwen3-next-80b-a3b,qwen3 next 80b a3b,qwen,open
+qwen3-vl-235b,qwen3 vl 235b,qwen,open
+reka-core,reka core,reka,open
+reka-flash,reka flash,reka,open
+ring-flash-2-0,ring flash 2 0,UNKNOWN_CO,open
+rwkv-4-raven-14b,rwkv 4 raven 14b,UNKNOWN_CO,open
+smollm2-1-7b,smollm2 1 7b,ai2,open
+snowflake-arctic,snowflake arctic,snowflake,open
+solar-10-7b,solar 10 7b,upstage,open
+solar-pro-4,solar pro 4,upstage,open
+stablelm-tuned-alpha-7b,stablelm tuned alpha 7b,UNKNOWN_CO,open
+starling-lm-7b-alpha,starling lm 7b alpha,UNKNOWN_CO,open
+starling-lm-7b-beta,starling lm 7b beta,UNKNOWN_CO,open
+step-1o-turbo,step 1o turbo,stepfun,closed
+step-3,step 3,stepfun,closed
+step-3-5-flash,step 3 5 flash,stepfun,closed
+step-5,step 5,stepfun,closed
+stripedhyena-nous-7b,stripedhyena nous 7b,nousresearch,open
+trinity-large,trinity large,UNKNOWN_CO,open
+tulu-2-dpo-70b,tulu 2 dpo 70b,meta,open
+tulu-3-70b,tulu 3 70b,meta,open
+tulu-3-8b,tulu 3 8b,meta,open
+vicuna-13b,vicuna 13b,meta,open
+vicuna-33b,vicuna 33b,meta,open
+vicuna-7b,vicuna 7b,meta,open
+wizardlm-13b,wizardlm 13b,nousresearch,open
+wizardlm-70b,wizardlm 70b,nousresearch,open
+yi-lightning,yi lightning,01ai,open
+zephyr-7b-alpha,zephyr 7b alpha,nousresearch,open
+zephyr-7b-beta,zephyr 7b beta,nousresearch,open
+zephyr-orpo-141b-a35b,zephyr orpo 141b a35b,nousresearch,open
+falcon-180b,Falcon 180B,tii,open
+qwen3-5-max,qwen3 5 max,qwen,open
+glm-5v,GLM-5V,zhipu,open
+mai-1-preview,MAI-1 Preview,microsoft,closed

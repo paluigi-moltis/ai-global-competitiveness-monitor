@@ -968,3 +968,826 @@ livebench,qwen2-0.5b-instruct,unknown-qwen2-0-5b-instruct
 livebench,qwen2-1.5b-instruct,unknown-qwen2-1-5b-instruct
 livebench,qwen2-7b-instruct,unknown-qwen2-7b-instruct
 livebench,yi-6b-chat,unknown-yi-6b-chat
+arena,Alpaca 13B,alpaca-13b
+arena,Amazon Nova 2 Lite,nova-2-lite
+arena,Amazon Nova Lite 1.0,nova-lite-v1
+arena,Amazon Nova Micro 1.0,nova-2-micro
+arena,Amazon Nova Pro 1.0,nova-2-pro
+arena,Athene 70B (0725),athene-70b
+arena,Athene V2 Chat,athene-v2-chat
+arena,Aya Expanse 32B,aya-expanse-32b
+arena,Aya Expanse 8B,aya-expanse-8b
+arena,Beam 1.0 501B A23B,beam-1-0
+arena,ChatGLM 6B,chatglm-6b
+arena,ChatGLM2 6B,chatglm2-6b
+arena,ChatGLM3 6B,chatglm3-6b
+arena,ChatGPT-4o Latest (20250326),gpt-4o
+arena,Claude 3 Haiku (20240307),claude-3-haiku
+arena,Claude 3 Opus (20240229),claude-3-opus
+arena,Claude 3 Sonnet (20240229),claude-3-sonnet
+arena,Claude 3.5 Haiku (20241022),claude-3-5-haiku
+arena,Claude 3.5 Sonnet (20240620),claude-3-5-sonnet
+arena,Claude 3.5 Sonnet (20241022),claude-3-5-sonnet
+arena,Claude 3.7 Sonnet (20250219),claude-3-7-sonnet
+arena,"Claude 3.7 Sonnet (Thinking 32K, 20250219)",claude-3-7-sonnet
+arena,Claude Fable 5 (High),claude-fable-5
+arena,Claude Fable 5.1 (Max),claude-fable-5-1
+arena,Claude Haiku 4.5 (20251001),claude-haiku-4-5
+arena,Claude Haiku 5.5 (High),claude-haiku-5-5
+arena,Claude Opus 4 (20250514),claude-opus-4
+arena,"Claude Opus 4 (Thinking 16K, 20250514)",claude-opus-4
+arena,Claude Opus 4.1 (20250805),claude-opus-4-1
+arena,"Claude Opus 4.1 (Thinking 16K, 20250805)",claude-opus-4-1
+arena,Claude Opus 4.5 (20251101),claude-opus-4-5
+arena,"Claude Opus 4.5 (High, 32K, 20251101)",claude-opus-4-5
+arena,Claude Opus 4.6,claude-opus-4-6
+arena,Claude Opus 4.6 (High),claude-opus-4-6
+arena,Claude Opus 4.7,claude-opus-4-7
+arena,Claude Opus 4.7 (High),claude-opus-4-7
+arena,Claude Opus 4.8,claude-opus-4-8
+arena,Claude Opus 4.8 (High),claude-opus-4-8
+arena,Claude Opus 5 (High),claude-opus-5
+arena,Claude Opus 5 (Max),claude-opus-5
+arena,Claude Opus 5.5 (High),claude-opus-5-5
+arena,Claude Sonnet 4 (20250514),claude-sonnet-4
+arena,"Claude Sonnet 4 (Thinking 32K, 20250514)",claude-sonnet-4
+arena,Claude Sonnet 4.5 (20250929),claude-sonnet-4-5
+arena,"Claude Sonnet 4.5 (High, 32K, 20250929)",claude-sonnet-4-5
+arena,Claude Sonnet 4.6,claude-sonnet-4-6
+arena,Claude Sonnet 5 (High),claude-sonnet-5
+arena,Claude Sonnet 5.5 (xHigh),claude-sonnet-5-5
+arena,Code Llama 34B Instruct,code-llama-34b
+arena,Code Llama 70B Instruct,code-llama-70b
+arena,Command A (03-2025),command-a
+arena,Command R,command-r
+arena,Command R (08-2024),command-r
+arena,Command R+,command-r
+arena,Command R+ (08-2024),command-r
+arena,DBRX Instruct Preview,dbrx
+arena,DeepSeek LLM 67B Chat,deepseek-llm-67b
+arena,DeepSeek-Coder-V2,deepseek-coder-v2
+arena,DeepSeek-R1,deepseek-r1
+arena,DeepSeek-R1 (0528),deepseek-r1
+arena,DeepSeek-V2.5,deepseek-v2-5
+arena,DeepSeek-V2.5 (1210),deepseek-v2-5
+arena,DeepSeek-V3,deepseek-v3
+arena,DeepSeek-V3 (0324),deepseek-v3
+arena,DeepSeek-V3.1,deepseek-v3-1
+arena,DeepSeek-V3.1 (Thinking),deepseek-v3-1
+arena,DeepSeek-V3.1-Terminus,deepseek-v3-1-terminus
+arena,DeepSeek-V3.1-Terminus (Thinking),deepseek-v3-1-terminus
+arena,DeepSeek-V3.2,deepseek-v3-2
+arena,DeepSeek-V3.2 (Thinking),deepseek-v3-2
+arena,DeepSeek-V3.2-Exp,deepseek-v3-2-exp
+arena,DeepSeek-V3.2-Exp (Thinking),deepseek-v3-2-exp
+arena,DeepSeek-V4-Flash,deepseek-v4-flash
+arena,DeepSeek-V4-Flash Preview (High),deepseek-v4-flash
+arena,DeepSeek-V4-Pro,deepseek-v4-pro
+arena,"DeepSeek-V4-Pro (High, 20260813)",deepseek-v4-pro
+arena,DeepSeek-V4-Pro Preview (High),deepseek-v4-pro
+arena,DeepSeek-V4.1-Flash-20260910 (Max),deepseek-v4-1-flash
+arena,Dola Seed 2.0 Pro,doubao-seed-2-0-pro
+arena,Dolly 2.0 12B,dolly-v2-12b
+arena,Dolphin 2.2.1 Mistral 7B,dolphin-mistral-7b
+arena,ERNIE 5.0 (0110),ernie-5-0
+arena,ERNIE 5.1,ernie-5-1
+arena,ERNIE-5.0-Preview (1022),ernie-5-0
+arena,ERNIE-5.0-Preview (1203),ernie-5-0
+arena,FastChat-T5 3B,fastchat-t5-3b
+arena,GLM-4 (0520),glm-4
+arena,GLM-4-Plus,glm-4-plus
+arena,GLM-4-Plus (0111),glm-4-plus
+arena,GLM-4.5,glm-4-5
+arena,GLM-4.5-Air,glm-4-5-air
+arena,GLM-4.5V,glm-4-5v
+arena,GLM-4.6,glm-4-6
+arena,GLM-4.6V,glm-4-6v
+arena,GLM-4.7,glm-4-7
+arena,GLM-4.7-Flash,glm-4-7-flash
+arena,GLM-5,glm-5
+arena,GLM-5.1,glm-5-1
+arena,GLM-5.2 (Max),glm-5-2
+arena,GLM-5.3 (Max),glm-5-3
+arena,GLM-5.3-Flash,glm-5-3-flash
+arena,GPT-3.5 Turbo (0125),gpt-3-5-turbo
+arena,GPT-3.5 Turbo (1106),gpt-3-5-turbo
+arena,GPT-4 (0314),gpt-4
+arena,GPT-4 (0613),gpt-4
+arena,GPT-4 Turbo (2024-04-09),gpt-4-turbo
+arena,GPT-4 Turbo Preview (0125),gpt-4-1106-preview
+arena,GPT-4 Turbo Preview (1106),gpt-4-1106-preview
+arena,GPT-4.1 (2025-04-14),gpt-4-1
+arena,GPT-4.1 mini (2025-04-14),gpt-4-1-mini
+arena,GPT-4.1 nano (2025-04-14),gpt-4-1-nano
+arena,GPT-4.5 Preview (2025-02-27),gpt-4-5-preview
+arena,GPT-4o (2024-05-13),gpt-4o
+arena,GPT-4o (2024-08-06),gpt-4o
+arena,GPT-4o mini (2024-07-18),gpt-4o-mini
+arena,GPT-5 (High),gpt-5
+arena,GPT-5 Chat,gpt-5
+arena,GPT-5 mini (High),gpt-5-mini
+arena,GPT-5 nano (High),gpt-5-nano
+arena,GPT-5.1,gpt-5-1
+arena,GPT-5.1 (High),gpt-5-1
+arena,GPT-5.2,gpt-5-2
+arena,GPT-5.2 (High),gpt-5-2
+arena,GPT-5.2 Chat (20260210),gpt-5-2
+arena,GPT-5.3 Chat,gpt-5-3
+arena,GPT-5.4,gpt-5-4
+arena,GPT-5.4 (High),gpt-5-4
+arena,GPT-5.4 mini (High),gpt-5-4-mini
+arena,GPT-5.4 nano (High),gpt-5-4-nano
+arena,GPT-5.5,gpt-5-5
+arena,GPT-5.5 (High),gpt-5-5
+arena,GPT-5.5 Instant,gpt-5-5
+arena,GPT-5.6 Luna (xHigh),gpt-5-6-luna
+arena,GPT-5.6 Sol (xHigh),gpt-5-6-sol
+arena,GPT-5.6 Terra (xHigh),gpt-5-6-terra
+arena,GPT-6 Astra (Max),gpt-6-astra
+arena,GPT-6 Luna (Max),gpt-6-luna
+arena,GPT-6 Sol (Max),gpt-6-sol
+arena,GPT-6.1 Sol (Max),gpt-6-1-sol
+arena,GPT4All 13B Snoozy,gpt4all-13b-snoozy
+arena,Gemini 1.5 Flash (001),gemini-1-5-flash
+arena,Gemini 1.5 Flash (002),gemini-1-5-flash
+arena,Gemini 1.5 Flash-8B (001),gemini-1-5-flash-8b
+arena,Gemini 1.5 Pro (001),gemini-1-5-pro
+arena,Gemini 1.5 Pro (002),gemini-1-5-pro
+arena,Gemini 2.0 Flash (001),gemini-2-0-flash
+arena,Gemini 2.0 Flash-Lite Preview (02-05),gemini-2-0-flash-lite
+arena,Gemini 2.5 Flash,gemini-2-5-flash
+arena,Gemini 2.5 Flash Preview (09-2025),gemini-2-5-flash
+arena,"Gemini 2.5 Flash-Lite Preview (Non-Thinking, 09-2025)",gemini-2-5-flash-lite
+arena,"Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)",gemini-2-5-flash-lite
+arena,Gemini 2.5 Pro,gemini-2-5-pro
+arena,Gemini 3 Flash,gemini-3-flash
+arena,Gemini 3 Flash (Minimal),gemini-3-flash
+arena,Gemini 3 Pro,gemini-3-pro
+arena,Gemini 3.1 Flash-Lite Preview,gemini-3-1-flash-lite
+arena,Gemini 3.1 Pro Preview,gemini-3-1-pro
+arena,Gemini 3.5 Flash (High),gemini-3-5-flash
+arena,Gemini 3.5 Flash (Medium),gemini-3-5-flash
+arena,Gemini 3.5 Flash-Lite,gemini-3-5-flash-lite
+arena,Gemini 3.6 Flash (High),gemini-3-6-flash
+arena,Gemini 3.7 Flash (High),gemini-3-7-flash
+arena,Gemini 3.8 Flash (High),gemini-3-8-flash
+arena,Gemini 4 Argon (High),gemini-4-argon
+arena,Gemini 4 Carbon (High),gemini-4-carbon
+arena,Gemini 4 Hydrogen (High),gemini-4-hydrogen
+arena,Gemini Advanced (0514),gemini-1-5-pro
+arena,Gemini Pro,gemini-1-0-pro
+arena,Gemini Pro (Dev API),gemini-1-0-pro
+arena,Gemma 1.1 2B IT,gemma-1-1
+arena,Gemma 1.1 7B IT,gemma-1-1
+arena,Gemma 2 27B IT,gemma-2-27b
+arena,Gemma 2 2B IT,gemma-2-2b
+arena,Gemma 2 9B IT,gemma-2-9b
+arena,Gemma 2 9B IT SimPO,gemma-2-9b
+arena,Gemma 2B IT,gemma
+arena,Gemma 3 12B IT,gemma-3-12b
+arena,Gemma 3 27B IT,gemma-3-27b
+arena,Gemma 3 4B IT,gemma-3-4b
+arena,Gemma 3n E4B IT,gemma-3n-e4b
+arena,Gemma 4 26B A4B,gemma-4-26b
+arena,Gemma 4 31B,gemma-4-31b
+arena,Gemma 7B IT,gemma
+arena,Granite 3.0 2B Instruct,granite-3-0-2b
+arena,Granite 3.0 8B Instruct,granite-3-0-8b
+arena,Granite 3.1 2B Instruct,granite-3-1-2b
+arena,Granite 3.1 8B Instruct,granite-3-1-8b
+arena,Granite 4.1 8B,granite-4-1-8b
+arena,Granite 4.2 30B,granite-4-2-30b
+arena,Granite 4.2 3B,granite-4-2-3b
+arena,Granite 4.2 8B,granite-4-2-8b
+arena,Granite-4.0-H-Small,granite-4-0-h-small
+arena,Grok 2 (2024-08-13),grok-2
+arena,Grok 2 mini (2024-08-13),grok-2
+arena,Grok 3 Mini (High),grok-3-mini
+arena,Grok 3 Mini Beta,grok-3-mini
+arena,Grok 3 Preview (02-24),grok-3
+arena,Grok 4 (0709),grok-4
+arena,Grok 4 Fast (Non-Reasoning),grok-4-fast
+arena,Grok 4 Fast (Reasoning),grok-4-fast
+arena,Grok 4.1,grok-4-1
+arena,Grok 4.1 (Thinking),grok-4-1
+arena,Grok 4.1 Fast (Reasoning),grok-4-fast
+arena,"Grok 4.20 Beta (Reasoning, 0309)",grok-4-20
+arena,Grok 4.20 Beta 1,grok-4-20
+arena,Grok 4.20 Multi-Agent Beta (0309),grok-4-20
+arena,Grok 4.3,grok-4-3
+arena,Grok 4.5,grok-4-5
+arena,Grok 4.6 (High),grok-4-6
+arena,Grok 4.7 (xHigh),grok-4-7
+arena,Guanaco 33B,guanaco-33b
+arena,Hunyuan Large (2025-02-10),hunyuan-large
+arena,Hunyuan Large Vision,hunyuan-large-vision
+arena,Hunyuan Standard (2025-02-10),hunyuan-standard
+arena,Hunyuan Standard 256K,hunyuan-standard-256k
+arena,Hunyuan T1 (20250711),hunyuan-t1
+arena,Hunyuan Turbo (0110),hunyuan-turbo
+arena,Hunyuan TurboS (20250226),hunyuan-turbos
+arena,Hunyuan TurboS (20250416),hunyuan-turbos
+arena,Hunyuan Vision 1.5 Thinking,hunyuan-vision-1-5
+arena,Hy3,hy3
+arena,Hy3 preview,hy3
+arena,INTELLECT-3,intellect-3
+arena,Inkling,inkling
+arena,Inkling 2 Small,inkling-small
+arena,Inkling-Small,inkling-small
+arena,InternLM2.5 20B Chat,internlm2-5-20b
+arena,Jamba 1.5 Large,jamba-1-5-large
+arena,Jamba 1.5 Mini,jamba-1-5-mini
+arena,Kimi K2 Preview (0711),kimi-k2
+arena,Kimi K2 Preview (0905),kimi-k2
+arena,Kimi K2 Thinking Turbo,kimi-k2
+arena,Kimi K2.5 (Instant),kimi-k2-5
+arena,Kimi K2.5 (Thinking),kimi-k2-5
+arena,Kimi K2.6,kimi-k2-6
+arena,Kimi K3 (Max),kimi-k3
+arena,Kimi K3.1 Pro (Max),kimi-k3-1-pro
+arena,Koala 13B,koala-13b
+arena,LLaMA 13B,llama-13b
+arena,Ling-flash-2.0,ling-flash-2-0
+arena,Llama 2 13B Chat,llama-2-13b
+arena,Llama 2 70B Chat,llama-2-70b
+arena,Llama 2 70B SteerLM Chat,llama-2-70b
+arena,Llama 2 7B Chat,llama-2-7b
+arena,Llama 3 70B Instruct,llama-3-70b
+arena,Llama 3 8B Instruct,llama-3-8b
+arena,Llama 3.1 70B Instruct,llama-3-1-70b
+arena,Llama 3.1 8B Instruct,llama-3-1-8b
+arena,Llama 3.1 Nemotron 51B Instruct,nemotron-51b
+arena,Llama 3.1 Nemotron 70B Instruct,nemotron-70b
+arena,Llama 3.1 Nemotron Ultra 253B v1,nemotron-ultra-253b
+arena,Llama 3.1 Tulu 3 70B,tulu-3-70b
+arena,Llama 3.1 Tulu 3 8B,tulu-3-8b
+arena,Llama 3.2 1B Instruct,llama-3-2-1b
+arena,Llama 3.2 3B Instruct,llama-3-2-3b
+arena,Llama 3.3 70B Instruct,llama-3-3-70b
+arena,Llama 3.3 Nemotron Super 49B v1,nemotron-super-49b
+arena,Llama 3.3 Nemotron Super 49B v1.5,nemotron-super-49b
+arena,Llama 4 Maverick 17B 128E Instruct,llama-4-maverick
+arena,Llama 4 Scout 17B 16E Instruct,llama-4-scout
+arena,LongCat-Flash-Chat,longcat-flash
+arena,LongCat-Flash-Chat Exp (2602),longcat-flash
+arena,MPT 30B Chat,mpt-30b-chat
+arena,MPT 7B Chat,mpt-7b-chat
+arena,Magistral Medium (2506),magistral-medium
+arena,Mercury,mercury
+arena,Mercury 2,mercury-2
+arena,MiMo-V2-Flash (Non-Thinking),mimo-v2-flash
+arena,MiMo-V2-Flash (Thinking),mimo-v2-flash
+arena,MiMo-V2-Omni,mimo-v2-omni
+arena,MiMo-V2-Pro,mimo-v2-pro
+arena,MiMo-V2.5,mimo-v2-5
+arena,MiMo-V2.5-Pro,mimo-v2-5-pro
+arena,MiMo-V2.6-Flash,mimo-v2-6-flash
+arena,MiMo-V2.6-Pro,mimo-v2-6-pro
+arena,MiniMax-M1,minimax-m1
+arena,MiniMax-M2,minimax-m2
+arena,MiniMax-M2.1 Preview,minimax-m2
+arena,MiniMax-M2.5,minimax-m2-5
+arena,MiniMax-M2.7,minimax-m2-7
+arena,MiniMax-M3,minimax-m3
+arena,Ministral 8B (2410),ministral-8b-2410
+arena,Mistral 7B Instruct,mistral-7b
+arena,Mistral 7B Instruct v0.2,mistral-7b
+arena,Mistral Large (2402),mistral-large
+arena,Mistral Large (2411),mistral-large
+arena,Mistral Large 2 (2407),mistral-large-2
+arena,Mistral Large 3,mistral-large-3
+arena,Mistral Large 4,mistral-large-4-0
+arena,Mistral Medium,mistral-medium
+arena,Mistral Medium 3 (2505),mistral-medium-3
+arena,Mistral Medium 3.1 (2508),mistral-medium-3
+arena,Mistral Medium 3.5,mistral-medium-3-5
+arena,Mistral Small 24B Instruct (2501),mistral-small-2501
+arena,Mistral Small 3.1 24B Instruct (2503),mistral-small-2501
+arena,Mistral Small 3.2 (2506),mistral-small-2506
+arena,Mixtral 8x22B Instruct v0.1,mixtral-8x22b
+arena,Mixtral 8x7B Instruct v0.1,mixtral-8x7b
+arena,Molmo 2 8B,molmo-2-8b
+arena,Muse Glimmer,muse-glimmer
+arena,Muse Spark,muse-spark
+arena,Muse Spark 1.1,muse-spark-1-1
+arena,Muse Spark 1.2 (xHigh),muse-spark-1-2
+arena,Muse Spark 1.3 (Max),muse-spark-1-3
+arena,Muse Wonder (Max),muse-wonder-1-0
+arena,NVIDIA-Nemotron-3-Super-120B-A12B,nemotron-3-super
+arena,Nemotron-4 340B Instruct,nemotron-4-340b
+arena,Nous Hermes 2 Mixtral 8x7B DPO,nous-hermes-2-mixtral-8x7b
+arena,OLMo 2 32B Instruct (0325),olmo-2-32b
+arena,OLMo 7B Instruct,olmo-7b
+arena,Olmo 3 32B Think,olmo-3-32b-think
+arena,Olmo 3.1 32B Instruct,olmo-3-1-32b
+arena,Olmo 3.1 32B Think,olmo-3-1-32b-think
+arena,OpenAssistant Pythia 12B,openassistant-pythia-12b
+arena,OpenChat 3.5,openchat-3-5
+arena,OpenChat 3.5 (0106),openchat-3-5
+arena,OpenHermes 2.5 Mistral 7B,openhermes-2-5-mistral-7b
+arena,PaLM 2,palm-2
+arena,Phi-3 Medium 4K Instruct,phi-3-medium-128k
+arena,Phi-3 Mini 128K Instruct,phi-3-mini-128k
+arena,Phi-3 Mini 4K Instruct,phi-3-mini
+arena,Phi-3 Mini 4K Instruct (June 2024),phi-3-mini
+arena,Phi-3 Small 8K Instruct,phi-3-small-8k
+arena,Phi-4,phi-4
+arena,QwQ-32B,qwq-32b
+arena,QwQ-32B-Preview,qwq-32b
+arena,Qwen-14B-Chat,qwen-14b
+arena,Qwen-Max (0919),qwen-max
+arena,Qwen-Plus (0125),qwen-plus
+arena,Qwen1.5-110B-Chat,qwen1-5-110b
+arena,Qwen1.5-14B-Chat,qwen1-5-14b
+arena,Qwen1.5-32B-Chat,qwen1-5-32b
+arena,Qwen1.5-4B-Chat,qwen1-5-4b
+arena,Qwen1.5-72B-Chat,qwen1-5-72b
+arena,Qwen1.5-7B-Chat,qwen1-5-7b
+arena,Qwen2-72B-Instruct,qwen2-72b
+arena,Qwen2.5-72B-Instruct,qwen2-5-72b
+arena,Qwen2.5-Coder-32B-Instruct,qwen2-5-coder-32b
+arena,Qwen2.5-Max,qwen2-5-max
+arena,Qwen2.5-Plus (1127),qwen2-5-plus
+arena,Qwen3-235B-A22B,qwen3-235b
+arena,Qwen3-235B-A22B (Non-Thinking),qwen3-235b
+arena,Qwen3-235B-A22B-Instruct (2507),qwen3-235b
+arena,Qwen3-235B-A22B-Thinking (2507),qwen3-235b
+arena,Qwen3-30B-A3B,qwen3-30b-a3b
+arena,Qwen3-30B-A3B-Instruct (2507),qwen3-30b-a3b
+arena,Qwen3-32B,qwen3-32b
+arena,Qwen3-Coder-480B-A35B-Instruct,qwen3-coder-480b
+arena,Qwen3-Max (2025-09-23),qwen3-max
+arena,Qwen3-Max-Preview,qwen3-max
+arena,Qwen3-Next-80B-A3B-Instruct,qwen3-next-80b-a3b
+arena,Qwen3-Next-80B-A3B-Thinking,qwen3-next-80b-a3b
+arena,Qwen3-VL-235B-A22B-Instruct,qwen3-vl-235b
+arena,Qwen3-VL-235B-A22B-Thinking,qwen3-vl-235b
+arena,Qwen3.5-122B-A10B,qwen3-5-122b
+arena,Qwen3.5-27B,qwen3-5-27b
+arena,Qwen3.5-35B-A3B,qwen3-5-35b
+arena,Qwen3.5-397B-A17B,qwen3-5-397b
+arena,Qwen3.5-Flash,qwen3-5-flash
+arena,Qwen3.6-Plus,qwen3-6-plus
+arena,Qwen3.7-Plus,qwen3-7-plus
+arena,Qwen3.8-27B,qwen3-8-27b
+arena,Qwen3.8-Max,qwen3-8-max
+arena,RWKV-4 Raven 14B,rwkv-4-raven-14b
+arena,Reka Core (20240904),reka-core
+arena,Reka Flash (20240904),reka-flash
+arena,Reka Flash 21B (20240226),reka-flash
+arena,"Reka Flash 21B (Online, 20240226)",reka-flash
+arena,Ring-flash-2.0,ring-flash-2-0
+arena,SOLAR 10.7B Instruct v1.0,solar-10-7b
+arena,SmolLM2 1.7B Instruct,smollm2-1-7b
+arena,Snowflake Arctic Instruct,snowflake-arctic
+arena,Solar Pro 4,solar-pro-4
+arena,StableLM Tuned Alpha 7B,stablelm-tuned-alpha-7b
+arena,Starling LM 7B Alpha,starling-lm-7b-alpha
+arena,Starling LM 7B Beta,starling-lm-7b-beta
+arena,Step 5 Preview,step-5
+arena,Step-1o Turbo (202506),step-1o-turbo
+arena,Step-2 16K Exp (202412),step-2-16k
+arena,Step-3,step-3
+arena,Step-3.5-Flash,step-3-5-flash
+arena,StripedHyena Nous 7B,stripedhyena-nous-7b
+arena,Trinity Large Preview,trinity-large
+arena,Trinity Large Thinking,trinity-large
+arena,Tulu 2 DPO 70B,tulu-2-dpo-70b
+arena,Vicuna 13B,vicuna-13b
+arena,Vicuna 33B,vicuna-33b
+arena,Vicuna 7B,vicuna-7b
+arena,WizardLM 13B,wizardlm-13b
+arena,WizardLM 70B,wizardlm-70b
+arena,Yi 1.5 34B Chat,yi-1-5-34b
+arena,Yi 34B Chat,yi-34b
+arena,Yi Lightning,yi-lightning
+arena,Zephyr 7B Alpha,zephyr-7b-alpha
+arena,Zephyr 7B Beta,zephyr-7b-beta
+arena,Zephyr ORPO 141B A35B v0.1,zephyr-orpo-141b-a35b
+arena,gpt-oss-20b,gpt-oss-20b
+arena,o1 (2024-12-17),o1
+arena,o1-mini,o1-mini
+arena,o1-preview,o1-preview
+arena,o3 (2025-04-16),o3
+arena,o3-mini,o3-mini
+arena,o3-mini (High),o3-mini
+arena,o4-mini (2025-04-16),o4-mini
+arena,Llama 3.1 405B Instruct (BF16),llama-3-1-405b
+arena,Llama 3.1 405B Instruct (FP8),llama-3-1-405b
+arena,Falcon 180B Chat,falcon-180b
+arena,NVIDIA-Nemotron-3-Nano-30B-A3B (BF16),nemotron-3-nano
+arena,NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4),nemotron-3-ultra
+arena,NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4),nemotron-3-5-lightning
+arena,NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4),nemotron-3-5-super-vl
+arena,Qwen3.5-Max-Preview,qwen3-5-max
+arena,Qwen3.6-Max-Preview,qwen3-6-max
+arena,Qwen3.7-Max-Preview,qwen3-7-max
+arena,Inkling Small,inkling-small
+arena,RWKV-4-Raven-14B,rwkv-4-raven-14b
+arena,alpaca-13b,alpaca-13b
+arena,athene-70b-0725,athene-70b
+arena,athene-v2-chat,athene-v2-chat
+arena,chatglm-6b,chatglm-6b
+arena,chatglm2-6b,chatglm2-6b
+arena,chatglm3-6b,chatglm3-6b
+arena,chatgpt-4o-latest,gpt-4o
+arena,claude-3-5-haiku-20241022,claude-3-5-haiku
+arena,claude-3-5-sonnet-20240620,claude-3-5-sonnet
+arena,claude-3-5-sonnet-20241022,claude-3-5-sonnet
+arena,claude-3-7-sonnet-20250219-thinking-32k,claude-3-7-sonnet
+arena,claude-3-haiku-20240307,claude-3-haiku
+arena,claude-3-opus-20240229,claude-3-opus
+arena,claude-3-sonnet-20240229,claude-3-sonnet
+arena,claude-fable-5,claude-fable-5
+arena,claude-fable-5-high,claude-fable-5
+arena,claude-fable-5.1-max,claude-fable-5-1
+arena,claude-haiku-4-5-20251001,claude-haiku-4-5
+arena,claude-opus-4-1-20250805,claude-opus-4-1
+arena,claude-opus-4-1-20250805-thinking-16k,claude-opus-4-1
+arena,claude-opus-4-20250514,claude-opus-4
+arena,claude-opus-4-20250514-thinking-16k,claude-opus-4
+arena,claude-opus-4-5-20251101,claude-opus-4-5
+arena,claude-opus-4-5-20251101-high-32k,claude-opus-4-5
+arena,claude-opus-4-5-20251101-thinking-32k,claude-opus-4-5
+arena,claude-opus-4-6,claude-opus-4-6
+arena,claude-opus-4-6-high,claude-opus-4-6
+arena,claude-opus-4-6-thinking,claude-opus-4-6
+arena,claude-opus-4-7,claude-opus-4-7
+arena,claude-opus-4-7-high,claude-opus-4-7
+arena,claude-opus-4-7-thinking,claude-opus-4-7
+arena,claude-opus-4-8,claude-opus-4-8
+arena,claude-opus-4-8-high,claude-opus-4-8
+arena,claude-opus-4-8-thinking,claude-opus-4-8
+arena,claude-opus-5-high,claude-opus-5
+arena,claude-opus-5-max,claude-opus-5
+arena,claude-opus-5.5-high,claude-opus-5-5
+arena,claude-sonnet-4-20250514,claude-sonnet-4
+arena,claude-sonnet-4-20250514-thinking-32k,claude-sonnet-4
+arena,claude-sonnet-4-5-20250929,claude-sonnet-4-5
+arena,claude-sonnet-4-5-20250929-high-32k,claude-sonnet-4-5
+arena,claude-sonnet-4-5-20250929-thinking-32k,claude-sonnet-4-5
+arena,claude-sonnet-4-6,claude-sonnet-4-6
+arena,claude-sonnet-5-high,claude-sonnet-5
+arena,claude-sonnet-5-thinking,claude-sonnet-5
+arena,claude-sonnet-5.5-xhigh,claude-sonnet-5-5
+arena,command-r,command-r
+arena,command-r-08-2024,command-r
+arena,command-r-plus,command-r-plus
+arena,command-r-plus-08-2024,command-r-plus
+arena,dbrx-instruct-preview,dbrx
+arena,deepseek-coder-v2,deepseek-coder-v2
+arena,deepseek-llm-67b-chat,deepseek-llm-67b
+arena,deepseek-r1,deepseek-r1
+arena,deepseek-v2.5,deepseek-v2-5
+arena,deepseek-v2.5-1210,deepseek-v2-5
+arena,deepseek-v3,deepseek-v3
+arena,deepseek-v3-0324,deepseek-v3-0324
+arena,deepseek-v3.1-terminus,deepseek-v3-1-terminus
+arena,deepseek-v3.1-terminus-thinking,deepseek-v3-1-terminus
+arena,deepseek-v3.1-thinking,deepseek-v3-1
+arena,deepseek-v3.2,deepseek-v3-2
+arena,deepseek-v3.2-exp,deepseek-v3-2-exp
+arena,deepseek-v3.2-exp-thinking,deepseek-v3-2-exp
+arena,deepseek-v3.2-thinking,deepseek-v3-2
+arena,deepseek-v4-flash,deepseek-v4-flash
+arena,deepseek-v4-flash-high-preview,deepseek-v4-flash
+arena,deepseek-v4-flash-thinking,deepseek-v4-flash
+arena,deepseek-v4-pro,deepseek-v4-pro
+arena,deepseek-v4-pro-high-20260813,deepseek-v4-pro
+arena,deepseek-v4-pro-high-preview,deepseek-v4-pro
+arena,deepseek-v4-pro-thinking,deepseek-v4-pro
+arena,deepseek-v4.1-flash-max,deepseek-v4-1-flash
+arena,dola-seed-2.0-pro,doubao-seed-2-0-pro
+arena,dolly-v2-12b,dolly-v2-12b
+arena,dolphin-2.2.1-mistral-7b,dolphin-mistral-7b
+arena,ernie-5.0-0110,ernie-5-0
+arena,ernie-5.0-preview-1022,ernie-5-0
+arena,ernie-5.0-preview-1203,ernie-5-0
+arena,ernie-5.1,ernie-5-1
+arena,ernie-5.1-preview,ernie-5-1
+arena,falcon-180b-chat,falcon-180b
+arena,fastchat-t5-3b,fastchat-t5-3b
+arena,gemini-1.5-flash-001,gemini-1-5-flash
+arena,gemini-1.5-flash-002,gemini-1-5-flash
+arena,gemini-1.5-flash-8b-001,gemini-1-5-flash-8b
+arena,gemini-1.5-flash-api-0514,gemini-1-5-flash
+arena,gemini-1.5-pro-001,gemini-1-5-pro
+arena,gemini-1.5-pro-002,gemini-1-5-pro
+arena,gemini-1.5-pro-api-0514,gemini-1-5-pro
+arena,gemini-2.0-flash-lite-preview-02-05,gemini-2-0-flash-lite
+arena,gemini-2.5-flash-lite-preview-06-17-thinking,gemini-2-5-flash-lite
+arena,gemini-2.5-flash-lite-preview-09-2025-no-thinking,gemini-2-5-flash-lite
+arena,gemini-2.5-flash-preview-09-2025,gemini-2-5-flash
+arena,gemini-2.5-pro,gemini-2-5-pro
+arena,gemini-3-flash,gemini-3-flash
+arena,gemini-3-flash (thinking-minimal),gemini-3-flash
+arena,gemini-3-pro,gemini-3-pro
+arena,gemini-3.1-flash-lite-preview,gemini-3-1-flash-lite
+arena,gemini-3.1-pro-preview,gemini-3-1-pro
+arena,gemini-3.5-flash,gemini-3-5-flash
+arena,gemini-3.5-flash-high,gemini-3-5-flash
+arena,gemini-3.5-flash-lite,gemini-3-5-flash-lite
+arena,gemini-3.5-flash-medium,gemini-3-5-flash
+arena,gemini-3.6-flash,gemini-3-6-flash
+arena,gemini-3.6-flash-high,gemini-3-6-flash
+arena,gemini-3.7-flash-high,gemini-3-7-flash
+arena,gemini-3.8-flash-high,gemini-3-8-flash
+arena,gemini-4-argon-high,gemini-4-argon
+arena,gemini-pro,gemini-1-0-pro
+arena,gemini-pro-dev-api,gemini-1-0-pro
+arena,gemma-1.1-2b-it,gemma-1-1
+arena,gemma-1.1-7b-it,gemma-1-1
+arena,gemma-2-27b-it,gemma-2-27b
+arena,gemma-2-2b-it,gemma-2-2b
+arena,gemma-2-9b-it,gemma-2-9b
+arena,gemma-2-9b-it-simpo,gemma-2-9b
+arena,gemma-2b-it,gemma
+arena,gemma-3-12b-it,gemma-3-12b
+arena,gemma-3-27b-it,gemma-3-27b
+arena,gemma-3-4b-it,gemma-3-4b
+arena,gemma-3n-e4b-it,gemma-3n-e4b
+arena,gemma-4-26b-a4b,gemma-4-26b
+arena,gemma-4-31b,gemma-4-31b
+arena,gemma-7b-it,gemma
+arena,glm-4-0520,glm-4
+arena,glm-4-plus,glm-4-plus
+arena,glm-4-plus-0111,glm-4-plus
+arena,glm-4.5-air,glm-4-5-air
+arena,glm-4.5v,glm-4-5v
+arena,glm-4.6v,glm-4-6v
+arena,glm-4.7,glm-4-7
+arena,glm-4.7-flash,glm-4-7-flash
+arena,glm-5,glm-5
+arena,glm-5.1,glm-5-1
+arena,glm-5.2 (max),glm-5-2
+arena,glm-5.2-max,glm-5-2
+arena,glm-5.3-flash,glm-5-3-flash
+arena,glm-5.3-max,glm-5-3
+arena,gpt-3.5-turbo-0125,gpt-3-5-turbo
+arena,gpt-3.5-turbo-1106,gpt-3-5-turbo
+arena,gpt-4-0125-preview,gpt-4-0125-preview
+arena,gpt-4-0314,gpt-4
+arena,gpt-4-0613,gpt-4
+arena,gpt-4-1106-preview,gpt-4-1106-preview
+arena,gpt-4-turbo-2024-04-09,gpt-4-turbo
+arena,gpt-4.1-mini-2025-04-14,gpt-4-1-mini
+arena,gpt-4.1-nano-2025-04-14,gpt-4-1-nano
+arena,gpt-4.5-preview-2025-02-27,gpt-4-5-preview
+arena,gpt-4o-2024-05-13,gpt-4o
+arena,gpt-4o-2024-08-06,gpt-4o
+arena,gpt-4o-mini-2024-07-18,gpt-4o-mini
+arena,gpt-5-chat,gpt-5
+arena,gpt-5-high,gpt-5
+arena,gpt-5-mini-high,gpt-5-mini
+arena,gpt-5-nano-high,gpt-5-nano
+arena,gpt-5.1,gpt-5-1
+arena,gpt-5.1-high,gpt-5-1
+arena,gpt-5.2,gpt-5-2
+arena,gpt-5.2-chat-latest-20260210,gpt-5-2
+arena,gpt-5.2-high,gpt-5-2
+arena,gpt-5.3-chat-latest,gpt-5-3
+arena,gpt-5.4,gpt-5-4
+arena,gpt-5.4-high,gpt-5-4
+arena,gpt-5.4-mini-high,gpt-5-4-mini
+arena,gpt-5.4-nano-high,gpt-5-4-nano
+arena,gpt-5.5,gpt-5-5
+arena,gpt-5.5-high,gpt-5-5
+arena,gpt-5.5-instant,gpt-5-5
+arena,gpt-5.6-luna-xhigh,gpt-5-6-luna
+arena,gpt-5.6-sol-xhigh,gpt-5-6-sol
+arena,gpt-5.6-terra-xhigh,gpt-5-6-terra
+arena,gpt-6-astra-max,gpt-6-astra
+arena,gpt-6-luna-max,gpt-6-luna
+arena,gpt-6-sol-max,gpt-6-sol
+arena,gpt-6.1-sol-max,gpt-6-1-sol
+arena,gpt4all-13b-snoozy,gpt4all-13b-snoozy
+arena,granite-3.0-2b-instruct,granite-3-0-2b
+arena,granite-3.0-8b-instruct,granite-3-0-8b
+arena,granite-3.1-2b-instruct,granite-3-1-2b
+arena,granite-3.1-8b-instruct,granite-3-1-8b
+arena,granite-4.1-8b,granite-4-1-8b
+arena,granite-4.2-30b,granite-4-2-30b
+arena,granite-4.2-3b,granite-4-2-3b
+arena,granite-4.2-8b,granite-4-2-8b
+arena,grok-2-2024-08-13,grok-2
+arena,grok-2-mini-2024-08-13,grok-2
+arena,grok-3-mini-beta,grok-3-mini
+arena,grok-3-mini-high,grok-3-mini
+arena,grok-3-preview-02-24,grok-3
+arena,grok-4-0709,grok-4
+arena,grok-4-1-fast-reasoning,grok-4-1
+arena,grok-4-fast-chat,grok-4-fast
+arena,grok-4-fast-reasoning,grok-4-fast
+arena,grok-4.1,grok-4-1
+arena,grok-4.1-thinking,grok-4-1
+arena,grok-4.20-beta-0309-reasoning,grok-4-20
+arena,grok-4.20-beta1,grok-4-20
+arena,grok-4.20-multi-agent-beta-0309,grok-4-20
+arena,grok-4.3,grok-4-3
+arena,grok-4.5,grok-4-5
+arena,grok-4.6-high,grok-4-6
+arena,grok-4.7-xhigh,grok-4-7
+arena,guanaco-33b,guanaco-33b
+arena,hunyuan-large-2025-02-10,hunyuan-large
+arena,hunyuan-large-vision,hunyuan-large-vision
+arena,hunyuan-standard-2025-02-10,hunyuan-standard
+arena,hunyuan-standard-256k,hunyuan-standard-256k
+arena,hunyuan-t1-20250711,hunyuan-t1
+arena,hunyuan-turbo-0110,hunyuan-turbo
+arena,hunyuan-turbos-20250226,hunyuan-turbos
+arena,hunyuan-turbos-20250416,hunyuan-turbos
+arena,hunyuan-vision-1.5-thinking,hunyuan-vision-1-5
+arena,hy3,hy3
+arena,inkling,inkling
+arena,intellect-3,intellect-3
+arena,jamba-1.5-large,jamba-1-5-large
+arena,jamba-1.5-mini,jamba-1-5-mini
+arena,kimi-k2-0711-preview,kimi-k2
+arena,kimi-k2-thinking-turbo,kimi-k2
+arena,kimi-k2.5-instant,kimi-k2-5
+arena,kimi-k2.5-thinking,kimi-k2-5
+arena,kimi-k2.6,kimi-k2-6
+arena,kimi-k3,kimi-k3
+arena,kimi-k3-max,kimi-k3
+arena,koala-13b,koala-13b
+arena,ling-flash-2.0,ling-flash-2-0
+arena,llama-13b,llama-13b
+arena,llama-2-13b-chat,llama-2-13b
+arena,llama-2-70b-chat,llama-2-70b
+arena,llama-2-7b-chat,llama-2-7b
+arena,llama-3-70b-instruct,llama-3-70b
+arena,llama-3-8b-instruct,llama-3-8b
+arena,llama-3.1-405b-instruct,llama-3-1-405b
+arena,llama-3.1-405b-instruct-bf16,llama-3-1-405b
+arena,llama-3.1-405b-instruct-fp8,llama-3-1-405b
+arena,llama-3.1-70b-instruct,llama-3-1-70b
+arena,llama-3.1-8b-instruct,llama-3-1-8b
+arena,llama-3.1-nemotron-51b-instruct,nemotron-51b
+arena,llama-3.1-nemotron-70b-instruct,nemotron-70b
+arena,llama-3.1-nemotron-ultra-253b-v1,nemotron-ultra-253b
+arena,llama-3.1-tulu-3-70b,tulu-3-70b
+arena,llama-3.1-tulu-3-8b,tulu-3-8b
+arena,llama-3.2-1b-instruct,llama-3-2-1b
+arena,llama-3.2-3b-instruct,llama-3-2-3b
+arena,llama-4-maverick-17b-128e-instruct,llama-4-maverick
+arena,llama-4-scout-17b-16e-instruct,llama-4-scout
+arena,longcat-flash-chat,longcat-flash
+arena,longcat-flash-chat-2602-exp,longcat-flash
+arena,magistral-medium-2506,magistral-medium
+arena,mercury,mercury
+arena,mercury-2,mercury-2
+arena,mimo-v2-flash (non-thinking),mimo-v2-flash
+arena,mimo-v2-flash (thinking),mimo-v2-flash
+arena,mimo-v2-omni,mimo-v2-omni
+arena,mimo-v2-pro,mimo-v2-pro
+arena,mimo-v2.5,mimo-v2-5
+arena,mimo-v2.5-pro,mimo-v2-5-pro
+arena,mimo-v2.6-flash,mimo-v2-6-flash
+arena,mimo-v2.6-pro,mimo-v2-6-pro
+arena,minimax-m1,minimax-m1
+arena,minimax-m2.1-preview,minimax-m2
+arena,minimax-m2.5,minimax-m2-5
+arena,minimax-m2.7,minimax-m2-7
+arena,minimax-m3,minimax-m3
+arena,ministral-8b-2410,ministral-8b-2410
+arena,mistral-7b-instruct,mistral-7b
+arena,mistral-7b-instruct-v0.2,mistral-7b
+arena,mistral-large-2402,mistral-large-2402
+arena,mistral-large-2407,mistral-large-2407
+arena,mistral-large-3,mistral-large-3
+arena,mistral-large-4,mistral-large-4-0
+arena,mistral-medium,mistral-medium
+arena,mistral-medium-2505,mistral-medium-2505
+arena,mistral-medium-2508,mistral-medium
+arena,mistral-medium-3.5,mistral-medium-3-5
+arena,mistral-small-2506,mistral-small-2506
+arena,mixtral-8x22b-instruct-v0.1,mixtral-8x22b
+arena,mixtral-8x7b-instruct-v0.1,mixtral-8x7b
+arena,molmo-2-8b,molmo-2-8b
+arena,mpt-30b-chat,mpt-30b-chat
+arena,mpt-7b-chat,mpt-7b-chat
+arena,muse-glimmer,muse-glimmer
+arena,muse-spark,muse-spark
+arena,muse-spark-1.1,muse-spark-1-1
+arena,muse-spark-1.2 (xHigh),muse-spark-1-2
+arena,muse-spark-1.3-max,muse-spark-1-3
+arena,muse-wonder-max,muse-wonder-1-0
+arena,nemotron-4-340b-instruct,nemotron-4-340b
+arena,nous-hermes-2-mixtral-8x7b-dpo,nous-hermes-2-mixtral-8x7b
+arena,nova-2-lite,nova-2-lite
+arena,nvidia-nemotron-3-nano-30b-a3b-bf16,nemotron-3-nano
+arena,nvidia-nemotron-3-super-120b-a12b,nemotron-3-super
+arena,nvidia-nemotron-3-ultra-550b-a55b-nvfp4,nemotron-3-ultra
+arena,nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4,nemotron-3-5-lightning
+arena,nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4,nemotron-3-5-super-vl
+arena,o1-2024-12-17,o1
+arena,o3-mini-high,o3-mini
+arena,o4-mini-2025-04-16,o4-mini
+arena,olmo-3-32b-think,olmo-3-32b-think
+arena,olmo-3.1-32b-instruct,olmo-3-1-32b
+arena,olmo-3.1-32b-think,olmo-3-1-32b-think
+arena,olmo-7b-instruct,olmo-7b
+arena,openchat-3.5,openchat-3-5
+arena,openchat-3.5-0106,openchat-3-5
+arena,openhermes-2.5-mistral-7b,openhermes-2-5-mistral-7b
+arena,palm-2,palm-2
+arena,phi-3-medium-4k-instruct,phi-3-medium-128k
+arena,phi-3-mini-128k-instruct,phi-3-mini-128k
+arena,phi-3-mini-4k-instruct,phi-3-mini
+arena,phi-3-mini-4k-instruct-june-2024,phi-3-mini
+arena,phi-3-small-8k-instruct,phi-3-small-8k
+arena,phi-4,phi-4
+arena,qwen-14b-chat,qwen-14b
+arena,qwen-max-0919,qwen-max
+arena,qwen-plus-0125,qwen-plus
+arena,qwen1.5-110b-chat,qwen1-5-110b
+arena,qwen1.5-14b-chat,qwen1-5-14b
+arena,qwen1.5-32b-chat,qwen1-5-32b
+arena,qwen1.5-4b-chat,qwen1-5-4b
+arena,qwen1.5-72b-chat,qwen1-5-72b
+arena,qwen1.5-7b-chat,qwen1-5-7b
+arena,qwen2-72b-instruct,qwen2-72b
+arena,qwen2.5-coder-32b-instruct,qwen2-5-coder-32b
+arena,qwen2.5-max,qwen2-5-max
+arena,qwen2.5-plus-1127,qwen2-5-plus
+arena,qwen3-235b-a22b-instruct-2507,qwen3-235b
+arena,qwen3-235b-a22b-no-thinking,qwen3-235b
+arena,qwen3-235b-a22b-thinking-2507,qwen3-235b
+arena,qwen3-30b-a3b,qwen3-30b-a3b
+arena,qwen3-30b-a3b-instruct-2507,qwen3-30b-a3b-instruct
+arena,qwen3-coder-480b-a35b-instruct,qwen3-coder-480b
+arena,qwen3-max-2025-09-23,qwen3-max
+arena,qwen3-max-preview,qwen3-max
+arena,qwen3-next-80b-a3b-instruct,qwen3-next-80b-a3b
+arena,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b
+arena,qwen3-vl-235b-a22b-instruct,qwen3-vl-235b
+arena,qwen3-vl-235b-a22b-thinking,qwen3-vl-235b
+arena,qwen3.5-122b-a10b,qwen3-5-122b
+arena,qwen3.5-27b,qwen3-5-27b
+arena,qwen3.5-35b-a3b,qwen3-5-35b
+arena,qwen3.5-397b-a17b,qwen3-5-397b
+arena,qwen3.5-flash,qwen3-5-flash
+arena,qwen3.5-max-preview,qwen3-5-max
+arena,qwen3.6-max-preview,qwen3-6-max
+arena,qwen3.6-plus,qwen3-6-plus
+arena,qwen3.7-max-preview,qwen3-7-max
+arena,qwen3.7-plus,qwen3-7-plus
+arena,qwen3.8-27b,qwen3-8-27b
+arena,qwen3.8-max,qwen3-8-max
+arena,qwq-32b,qwq-32b
+arena,qwq-32b-preview,qwq-32b
+arena,reka-core-20240904,reka-core
+arena,reka-flash-20240904,reka-flash
+arena,reka-flash-21b-20240226,reka-flash
+arena,reka-flash-21b-20240226-online,reka-flash
+arena,ring-flash-2.0,ring-flash-2-0
+arena,smollm2-1.7b-instruct,smollm2-1-7b
+arena,snowflake-arctic-instruct,snowflake-arctic
+arena,solar-10.7b-instruct-v1.0,solar-10-7b
+arena,stablelm-tuned-alpha-7b,stablelm-tuned-alpha-7b
+arena,starling-lm-7b-alpha,starling-lm-7b-alpha
+arena,starling-lm-7b-beta,starling-lm-7b-beta
+arena,step-1o-turbo-202506,step-1o-turbo
+arena,step-2-16k-exp-202412,step-2-16k
+arena,step-3,step-3
+arena,step-3.5-flash,step-3-5-flash
+arena,stripedhyena-nous-7b,stripedhyena-nous-7b
+arena,trinity-large,trinity-large
+arena,trinity-large-preview,trinity-large
+arena,trinity-large-thinking,trinity-large
+arena,tulu-2-dpo-70b,tulu-2-dpo-70b
+arena,vicuna-13b,vicuna-13b
+arena,vicuna-33b,vicuna-33b
+arena,vicuna-7b,vicuna-7b
+arena,wizardlm-13b,wizardlm-13b
+arena,wizardlm-70b,wizardlm-70b
+arena,yi-1.5-34b-chat,yi-1-5-34b
+arena,yi-34b-chat,yi-34b
+arena,yi-lightning,yi-lightning
+arena,zephyr-7b-alpha,zephyr-7b-alpha
+arena,zephyr-7b-beta,zephyr-7b-beta
+arena,zephyr-orpo-141b-A35b-v0.1,zephyr-orpo-141b-a35b
+arena,amazon-nova-lite-v1.0,nova-lite-v1
+arena,amazon-nova-pro-v1.0,nova-2-pro
+arena,c4ai-aya-expanse-32b,aya-expanse-32b
+arena,c4ai-aya-expanse-8b,aya-expanse-8b
+arena,chatgpt-4o-latest-20250326,gpt-4o
+arena,codellama-34b-instruct,code-llama-34b
+arena,codellama-70b-instruct,code-llama-70b
+arena,dola-seed-2.0-preview,doubao-seed-2-0-pro
+arena,gemini-advanced-0514,gemini-1-5-pro
+arena,hunyuan-hy3-preview,hy3
+arena,ibm-granite-h-small,granite-4-0-h-small
+arena,internlm2_5-20b-chat,internlm2-5-20b
+arena,llama-3.3-nemotron-49b-super-v1,nemotron-super-49b
+arena,nvidia-llama-3.3-nemotron-super-49b-v1.5,nemotron-super-49b
+arena,llama2-70b-steerlm-chat,llama-2-70b
+arena,mistral-small-24b-instruct-2501,mistral-small-2501
+arena,mistral-small-3.1-24b-instruct-2503,mistral-small-2501
+arena,oasst-pythia-12b,openassistant-pythia-12b
+arena,olmo-2-0325-32b-instruct,olmo-2-32b
+arena,solar-pro4,solar-pro-4
+arena,GLM-5V-Turbo,glm-5v
+arena,glm-5v-turbo,glm-5v
+arena,amazon-nova-micro-v1.0,nova-2-micro
+arena,mai-1-preview,mai-1-preview

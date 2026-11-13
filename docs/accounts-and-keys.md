@@ -18,7 +18,7 @@ key-free today.**
 | Hugging Face | Optional | `HF_TOKEN` | collecting (token only lifts rate limits) |
 | ModelScope | No | — | collecting |
 | Ollama | No | — | collecting |
-| LMArena | Blocked | — | API 403s without auth; deferred |
+| LMArena | ✅ No account — official HF dataset, anonymous download | — | collecting |
 | Artificial Analysis | Future | `ARTIFICIAL_ANALYSIS_API_KEY` | placeholder only |
 
 ---
@@ -65,12 +65,14 @@ token (public API). Only add a token if you hit anonymous rate limits
    HF_TOKEN=hf_your-token-here
    ```
 
-## 3. LMArena — blocked, do not create anything
+## 3. Arena (LMArena) — no account needed
 
-The leaderboard API rejects unauthenticated clients (verified: HTTP 403)
-and there is no documented key program. The human-preference component
-stays empty until an accessible historical source exists. Tracked in
-`docs/methodology.md` as a known data gap.
+The `lmarena.ai` API rejects unauthenticated clients (403), but Arena
+publishes the **complete history of every leaderboard** as a public
+Hugging Face dataset (announced April 2026, CC BY 4.0, not gated):
+<https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset>. The
+collector downloads the `text` subset's `full` split (Bradley-Terry
+ratings, 2023-05 → today) anonymously — nothing to create or configure.
 
 ## 4. Artificial Analysis — future placeholder
 
