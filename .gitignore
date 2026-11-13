@@ -1,29 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-*.egg-info/
-build/
-dist/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Data (raw archives and processed parquet are not version-controlled)
-data/raw/
-data/processed/
-data/unmatched_review.csv
-
-# Secrets
 .env
-
-# OS / editor
-.DS_Store
-.idea/
-.vscode/
-*.swp
-
-# DuckDB transient files
-*.duckdb
-*.wal
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# dashboard data files are rebuilt by process.py, but keep them out of git
+egg-info/

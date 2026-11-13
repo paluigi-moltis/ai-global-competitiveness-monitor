@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capabilities — AI Global Competitiveness Monitor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "apache-arrow": "https://cdn.jsdelivr.net/npm/apache-arrow@17.0.0/+esm"
+    }
+  }
+  </script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul><li><strong>AI Global Competitiveness Monitor</strong></li></ul>
+      <ul>
+        <li><a href="index.html" class="nav-link">Overview</a></li>
+        <li><a href="capabilities.html" class="nav-link active">Capabilities</a></li>
+        <li><a href="adoption.html" class="nav-link">Adoption</a></li>
+      </ul>
+    </nav>
+    <p class="meta-line">Last update: <span id="last-update">…</span> · Data through: <span id="data-through">…</span></p>
+  </header>
+
+  <main class="container">
+    <h2>Capability indicators</h2>
+    <p class="muted">Per-benchmark indicators by geography. Open-weight rows re-rank open models
+    among themselves (not filtered from the overall ranking). Raw scores and contributing
+    models are below each chart.</p>
+
+    <div class="grid controls-row">
+      <label>Benchmark
+        <select id="bench-select"></select>
+      </label>
+      <label>Scope
+        <select id="scope-select">
+          <option value="all">All models</option>
+          <option value="open">Open-weight models only</option>
+        </select>
+      </label>
+      <label>Date range
+        <select id="range-select">
+          <option value="90">Last 90 days</option>
+          <option value="180">Last 180 days</option>
+          <option value="365">Last 12 months</option>
+          <option value="" selected>All time</option>
+        </select>
+      </label>
+    </div>
+
+    <section class="grid">
+      <article>
+        <h4>Best model score (percentile-normalised)</h4>
+        <div id="chart-best" class="chart"></div>
+      </article>
+      <article>
+        <h4>Top-10 / Top-20 share</h4>
+        <div id="chart-topn" class="chart"></div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article>
+        <h4>Distinct providers in top-10 / top-20 <span class="muted">(raw counts shown; normalised in composites)</span></h4>
+        <div id="chart-providers" class="chart"></div>
+      </article>
+      <article>
+        <h4>Raw score evolution <span class="muted">(best score per date, 0-1)</span></h4>
+        <div id="chart-raw" class="chart"></div>
+      </article>
+    </section>
+
+    <article>
+      <h4>Contributing models — latest date <span class="muted" id="detail-date"></span></h4>
+      <p class="muted">Who is behind the indicator: best model, and the geography's models in the global top 10.</p>
+      <div id="detail-table"></div>
+    </article>
+
+    <article>
+      <h4>Component weights <span class="muted">(edit config/weights.xlsx to change)</span></h4>
+      <div id="weights-table"></div>
+    </article>
+  </main>
+
+  <script type="module">
+  import("./js/capabilities.js").catch(e => console.error("boot failed:", e));
+</script>
+</body>
+</html>

@@ -1,0 +1,607 @@
+{
+  "generated": "2026-11-13",
+  "last_data_date": "2026-11-13",
+  "geographies": [
+    "US",
+    "China",
+    "EU",
+    "RoW"
+  ],
+  "weights": [
+    {
+      "weight": 2,
+      "description": "MMLU-Pro: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "MMLU-Pro: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MMLU-Pro: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "GPQA Diamond: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "GPQA Diamond: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "GPQA Diamond: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "AIME 2025: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "AIME 2025: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "AIME 2025: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "MATH (500-sample): Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "MATH (500-sample): Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "MATH (500-sample): Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LiveCodeBench: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LiveCodeBench: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveCodeBench: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "SWE-bench Verified: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "SWE-bench Verified: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SWE-bench Verified: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LiveBench: Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LiveBench: Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LiveBench: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LMArena (Elo): Best model score (percentile-normalised)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "LMArena (Elo): Best model score (percentile-normalised) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Share of global top 10 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Share of global top 10 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Share of global top 20 models",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Share of global top 20 models (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Distinct providers in global top 10 (normalised by 10)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Distinct providers in global top 20 (normalised by 20)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "LMArena (Elo): Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "International benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "C-Eval: Best model score (percentile-normalised)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "C-Eval: Best model score (percentile-normalised) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Share of global top 10 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Share of global top 10 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Share of global top 20 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Share of global top 20 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Distinct providers in global top 10 (normalised by 10)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Distinct providers in global top 20 (normalised by 20)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "C-Eval: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "CMMLU: Best model score (percentile-normalised)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "CMMLU: Best model score (percentile-normalised) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Share of global top 10 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Share of global top 10 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Share of global top 20 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Share of global top 20 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Distinct providers in global top 10 (normalised by 10)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Distinct providers in global top 20 (normalised by 20)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "CMMLU: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "SuperCLUE: Best model score (percentile-normalised)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 2,
+      "description": "SuperCLUE: Best model score (percentile-normalised) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Share of global top 10 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Share of global top 10 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Share of global top 20 models",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Share of global top 20 models (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Distinct providers in global top 10 (normalised by 10)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Distinct providers in global top 10 (normalised by 10) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Distinct providers in global top 20 (normalised by 20)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "SuperCLUE: Distinct providers in global top 20 (normalised by 20) (open-weight only)",
+      "category": "Chinese benchmarks"
+    },
+    {
+      "weight": 1,
+      "description": "OpenRouter: share of identifiable tokens",
+      "category": "adoption.openrouter_usage"
+    },
+    {
+      "weight": 0,
+      "description": "OpenRouter: share of estimated spending",
+      "category": "adoption.openrouter_spend"
+    },
+    {
+      "weight": 1,
+      "description": "OpenRouter: share of identifiable tokens from open-weight models",
+      "category": "adoption.openrouter_open_usage"
+    },
+    {
+      "weight": 0,
+      "description": "OpenRouter: share of estimated spending from open-weight models",
+      "category": "adoption.openrouter_open_spend"
+    },
+    {
+      "weight": 1,
+      "description": "Vercel AI Gateway: share of identifiable tokens",
+      "category": "adoption.vercel_gateway_usage"
+    },
+    {
+      "weight": 0,
+      "description": "Vercel AI Gateway: share of identifiable spend",
+      "category": "adoption.vercel_gateway_spend"
+    },
+    {
+      "weight": 1,
+      "description": "Hugging Face: share of downloads (open-weight ecosystem)",
+      "category": "adoption.huggingface_downloads"
+    },
+    {
+      "weight": 1,
+      "description": "ModelScope: share of downloads (open-weight ecosystem)",
+      "category": "adoption.modelscope_downloads"
+    },
+    {
+      "weight": 1,
+      "description": "Ollama: share of pulls (open-weight ecosystem)",
+      "category": "adoption.ollama_downloads"
+    }
+  ]
+}

@@ -227,8 +227,59 @@ def main(argv: list[str] | None = None) -> int:
         "hq_country", "geography", "weights_status"]]
     common.write_processed("models_ref", models_ref)
 
+    # --- dashboard exports ---------------------------------------------------
+    # web/data/ receives copies of everything the browser queries via
+    # DuckDB-Wasm, plus meta.json (weights + freshness). Written by process.py
+    # so a weight edit refreshes the dashboard without recollection.
+    try:
+        export_dashboard_data(idx, weights)
+    except Exception:  # noqa: BLE001 - dashboard export must not kill processing
+        log.exception("Dashboard export failed")
+
     log.info("Done. Dashboard data in %s", common.PROCESSED_DIR)
     return 0
+
+
+def export_dashboard_data(idx: pd.DataFrame, weights: pd.DataFrame) -> None:
+    """Copy query-ready parquets to web/data/ and write meta.json.
+
+    Files are rewritten as parquet format v1.0 with us-precision timestamps:
+    duckdb-wasm 1.29 throws an opaque WebAssembly exception on some
+    parquet-2.6 files produced by pyarrow 26 (verified with
+    index_components_daily.parquet); v1.0 reads fine and is marginally
+    larger.
+    """
+    import json
+    import datetime as dt
+
+    web_data = common.ROOT / "web" / "data"
+    web_data.mkdir(parents=True, exist_ok=True)
+    for name in ("index_daily", "capability_components", "adoption_components",
+                 "capability_detail", "ranked_benchmarks", "models_ref",
+                 "index_components_daily"):
+        src = common.PROCESSED_DIR / f"{name}.parquet"
+        if not src.exists():
+            continue
+        df = pd.read_parquet(src)
+        for col in df.columns:
+            if str(df[col].dtype).startswith("datetime"):
+                df[col] = df[col].astype("datetime64[us]")
+        df.to_parquet(web_data / f"{name}.parquet", engine="pyarrow",
+                      coerce_timestamps="us", version="1.0")
+
+    gen_date = dt.date.today().isoformat()
+    last_data = ""
+    if not idx.empty:
+        last_data = pd.Timestamp(idx["date"].max()).date().isoformat()
+    # latest observation date behind each carried component (freshness)
+    meta = {
+        "generated": gen_date,
+        "last_data_date": last_data,
+        "geographies": GEOGRAPHIES,
+        "weights": weights.to_dict(orient="records"),
+    }
+    (web_data / "meta.json").write_text(json.dumps(meta, indent=2))
+    log.info("Dashboard data exported to %s", web_data)
 
 
 if __name__ == "__main__":

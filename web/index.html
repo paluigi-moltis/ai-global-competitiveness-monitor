@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Global Competitiveness Monitor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "apache-arrow": "https://cdn.jsdelivr.net/npm/apache-arrow@17.0.0/+esm"
+    }
+  }
+  </script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul>
+        <li><strong>AI Global Competitiveness Monitor</strong></li>
+      </ul>
+      <ul>
+        <li><a href="index.html" class="nav-link active">Overview</a></li>
+        <li><a href="capabilities.html" class="nav-link">Capabilities</a></li>
+        <li><a href="adoption.html" class="nav-link">Adoption</a></li>
+      </ul>
+    </nav>
+    <p class="meta-line">
+      Last update: <span id="last-update">…</span> ·
+      Data through: <span id="data-through">…</span> ·
+      <span id="coverage-note"></span>
+    </p>
+  </header>
+
+  <main class="container">
+    <section id="overview">
+      <h2>Overview</h2>
+      <div class="grid controls-row">
+        <label>Date range
+          <select id="range-select">
+            <option value="90">Last 90 days</option>
+            <option value="180">Last 180 days</option>
+            <option value="400" selected>Last ~13 months</option>
+            <option value="">All time</option>
+          </select>
+        </label>
+      </div>
+      <div class="grid">
+        <article>
+          <h4>Capability Index <small id="cap-asof" class="muted"></small></h4>
+          <div id="cap-chart" class="chart"></div>
+          <div id="cap-latest" class="latest-values"></div>
+        </article>
+        <article>
+          <h4>Adoption Index <small id="ado-asof" class="muted"></small></h4>
+          <div id="ado-chart" class="chart"></div>
+          <div id="ado-latest" class="latest-values"></div>
+        </article>
+      </div>
+
+      <details class="methodology-note">
+        <summary>Methodology &amp; coverage notes</summary>
+        <div class="grid">
+          <div>
+            <h6>Index construction</h6>
+            <p><code>Index(g,t) = Σ wᵢ·xᵢ / Σ_{available} wᵢ</code> — every component has a
+            user-configurable weight (<code>config/weights.xlsx</code>); weights are auto-normalised,
+            missing components are excluded (not zero-filled) and remaining weights renormalised.
+            Historical series carry the latest observation at or before each date forward
+            (no look-ahead); the observation date is retained.</p>
+          </div>
+          <div>
+            <h6>Coverage &amp; caveats</h6>
+            <p>Capability components currently draw on GPQA Diamond, MATH, AIME (OTIS Mock 2024-25),
+            SWE-bench Verified and LiveBench. LMArena is unavailable (no public API). Spending
+            components carry zero default weight. Download counters are cumulative levels with
+            platform-specific semantics; shares are computed within each platform separately.</p>
+            <p>Percentile normalisation is relative: raw scores are shown on the
+            <a href="capabilities.html">Capabilities</a> page. Benchmark scores are carried forward
+            until superseded — check <span id="freshness-hint">component freshness</span> before
+            interpreting short-term moves.</p>
+          </div>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="container">
+    <hr>
+    <p><small>Static dashboard — data queried client-side from Parquet via DuckDB-Wasm.
+    Sources: Epoch AI (CC BY 4.0), LiveBench, OpenRouter, Vercel AI Gateway (CC BY 4.0),
+    Hugging Face, ModelScope, Ollama. <span id="build-info"></span></small></p>
+  </footer>
+
+  <script type="module">
+  import("./js/app.js").catch(e => console.error("boot failed:", e));
+</script>
+</body>
+</html>

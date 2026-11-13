@@ -1,0 +1,7587 @@
+{
+  "dataset": "models",
+  "modality": "text",
+  "from": "2026-10-14",
+  "to": "2026-11-12",
+  "earliest_available_date": "2025-10-01",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "rows": [
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 49.3105
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.3344
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.275
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.2086
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.1127
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.6326
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.123
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4356
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3955
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1722
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 42.215
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 20.3789
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.9723
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.0972
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.6048
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.0292
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.054
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.3973
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2513
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 33.2148
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 22.3344
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.3592
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.9475
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.2892
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.1637
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.2852
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.253
+    },
+    {
+      "date": "2026-10-14",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.1529
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 51.3323
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.6355
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.9992
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.4519
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.3046
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5413
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.997
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4853
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.166
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.0871
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 38.895
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 23.6474
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.543
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.0056
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.9689
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.1992
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.7814
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.6624
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2972
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 35.1165
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 19.1245
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.6009
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.0719
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.5327
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.0452
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.247
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.9508
+    },
+    {
+      "date": "2026-10-15",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.3105
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 48.087
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.0051
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.9481
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.2832
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.6111
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.661
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6424
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.463
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.17
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1291
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 38.5705
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 22.8908
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 16.0486
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.8268
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.7626
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.5915
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.1139
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.9224
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2729
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 29.2022
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 26.6749
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.8896
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.8607
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.5788
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.6829
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.0615
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.7178
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.2268
+    },
+    {
+      "date": "2026-10-16",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 0.1048
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 45.454
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 14.9491
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.5896
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.0438
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.5501
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.2906
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9635
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3529
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3454
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.6017
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 0.8592
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 40.7943
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 22.2908
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.7876
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.9459
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.3502
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.2454
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.2417
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.9971
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.347
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 32.9898
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 25.0369
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.2265
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.127
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.2938
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.067
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.359
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2951
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.0836
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7632
+    },
+    {
+      "date": "2026-10-17",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7581
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 47.3139
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.9723
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.6329
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.7049
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.3445
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5834
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.051
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0077
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.0306
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.9068
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.4521
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 37.2085
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.7616
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.6184
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.414
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.4041
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.7392
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.317
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.1925
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.3447
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 26.9445
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 22.7796
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 12.2743
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.4389
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.4793
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.2328
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.6472
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.5329
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.9759
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.581
+    },
+    {
+      "date": "2026-10-18",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.1136
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 48.4764
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.7715
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.1069
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.1947
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.1655
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.9009
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.0932
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7265
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4633
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.2074
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.8938
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 38.5007
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.6326
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.6934
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 13.9689
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.7261
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.7124
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.3722
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.094
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2997
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 24.359
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.7839
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.7528
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.1129
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.4267
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.056
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.6725
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.8474
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.7597
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.9186
+    },
+    {
+      "date": "2026-10-19",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.3106
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 46.7679
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.8669
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.0557
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.8195
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.4249
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.9038
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5952
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9729
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9377
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8045
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.8509
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 33.7573
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.6154
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.7464
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 13.6235
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.1426
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.2723
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.1188
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.4925
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2312
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 30.2279
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.2076
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.0617
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 12.0094
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.3299
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.159
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.653
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.4128
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2546
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.0791
+    },
+    {
+      "date": "2026-10-20",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.6049
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 49.5054
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.0054
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.9516
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.7158
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.3262
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.7586
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.1427
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7257
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3779
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.377
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1136
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 35.4245
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.8041
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.1045
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 13.2293
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.5031
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.3402
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.0818
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.2331
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2794
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 31.5305
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.2875
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 12.9114
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.7326
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.6952
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.1933
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.1484
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.9192
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.297
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.9664
+    },
+    {
+      "date": "2026-10-21",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.3185
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 47.5564
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.959
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.762
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.0632
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.3965
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.9552
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8672
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7096
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4531
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1533
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1245
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 38.0307
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 18.632
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.0879
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.3237
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.5224
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.6909
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.4272
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.029
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2563
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 29.3094
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.3567
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.1259
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.1175
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.48
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.8351
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.1081
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.8636
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.4173
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.0895
+    },
+    {
+      "date": "2026-10-22",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.2968
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 42.8087
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.1722
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.374
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.0662
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.7127
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.0558
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.821
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3787
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3301
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.2467
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.0339
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 39.7743
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 20.8414
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.7707
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.3428
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.8219
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.2085
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.0203
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.8514
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2409
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.1277
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.0797
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.4283
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.5217
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.9772
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.4484
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.2773
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.8473
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.8634
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.6424
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3657
+    },
+    {
+      "date": "2026-10-23",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.5486
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 40.099
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 14.0605
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.2203
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.6293
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.6303
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.8747
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0296
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.1999
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.8486
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.7408
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.6669
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 38.3828
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 22.0555
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 16.9226
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.6641
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.0458
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.7252
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.2721
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.9121
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.7581
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2617
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.428
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.1246
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.6385
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.7352
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.6577
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.5694
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.3665
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.8766
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7819
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.4739
+    },
+    {
+      "date": "2026-10-24",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.3476
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 43.6219
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.6773
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.0337
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.7927
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.5563
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.2642
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.309
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8383
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.321
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.8591
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.7265
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 32.911
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.6935
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.8149
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.7672
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.2607
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.7378
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.8256
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.1719
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.5509
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2665
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.288
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 19.5775
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.9083
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.4086
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.9952
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.5109
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.3042
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.9424
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7825
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.6589
+    },
+    {
+      "date": "2026-10-25",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.6236
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 43.2994
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.3622
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.0963
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.3119
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.9788
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.5788
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.6481
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9514
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4348
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3066
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.0315
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 41.0455
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 21.9007
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.4695
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.3974
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1597
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.9198
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.1144
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.2036
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.4784
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.3111
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.6246
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.1808
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.5183
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.7176
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.2859
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.6334
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.8382
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.7648
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.6442
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.4587
+    },
+    {
+      "date": "2026-10-26",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3335
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 41.6646
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.896
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.8468
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.2594
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.3624
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.6492
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.372
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3375
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6669
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5263
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.419
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 37.9436
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 21.2472
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 10.6328
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 9.4304
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.1279
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.5856
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.4812
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.574
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.7056
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2719
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.7168
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.1325
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 12.6285
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.4313
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.8334
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.599
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.1418
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.4364
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.5252
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3712
+    },
+    {
+      "date": "2026-10-27",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.1841
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 46.1635
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.5093
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.167
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.9368
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.2765
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.918
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.932
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8379
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5957
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4016
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.2617
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 32.7606
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.1994
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.9937
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.9303
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.0693
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1531
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1327
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.6568
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.9235
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.1806
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 25.0739
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.0233
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.7171
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.5735
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.5448
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.7358
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.4566
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.5256
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2275
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7061
+    },
+    {
+      "date": "2026-10-28",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.4157
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 46.7331
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.1667
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.1518
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.3535
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.0184
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.4161
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3262
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2575
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2006
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7507
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6255
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 31.797
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 20.8424
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 11.6704
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 11.5509
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.738
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1073
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.3917
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.3595
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.3446
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.1981
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 25.1848
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 19.6853
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.7606
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.5404
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.8036
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.6857
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.3086
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.0255
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3879
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.1616
+    },
+    {
+      "date": "2026-10-29",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.456
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 39.5744
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.0375
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.0283
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.3943
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.4802
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.4759
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.2809
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5147
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0212
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7299
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4629
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 29.7286
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 19.6144
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 18.0918
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 11.4853
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.2892
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.6539
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.1486
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.102
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.6914
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.1949
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.9998
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 19.8484
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.4271
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.9114
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.5467
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.8189
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.6708
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.1433
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.0586
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.0548
+    },
+    {
+      "date": "2026-10-30",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.5201
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 37.2794
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.7249
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 10.4528
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.3586
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.7065
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.1206
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.8995
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2495
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6323
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3019
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.2739
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 31.4017
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 19.7892
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.5123
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 12.7617
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.3928
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.8249
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.976
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.3498
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.7567
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2349
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 22.158
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.7153
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.4876
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.4311
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.7578
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.6278
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.8054
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.3708
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.8697
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.4294
+    },
+    {
+      "date": "2026-10-31",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.347
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 38.2799
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.4934
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.8047
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.1515
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.3894
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.3579
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5174
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3407
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.4415
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.2464
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.9772
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 32.0933
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 18.2022
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.5951
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.0085
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.683
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.5747
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.6435
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.554
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.3794
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2663
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.7503
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.5442
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.3184
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.3654
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.1707
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.0183
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.1997
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.0051
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.7321
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.5651
+    },
+    {
+      "date": "2026-11-01",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.3306
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 40.2275
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 14.9327
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 11.5765
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.9819
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.922
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5354
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0009
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8792
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7465
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6178
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5797
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 31.1469
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 23.9886
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 21.4837
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.8313
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.7532
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.6437
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.4146
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.2665
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2637
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2077
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.3585
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.7525
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.3123
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 15.0649
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.0378
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.9879
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.7416
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.66
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2168
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.02
+    },
+    {
+      "date": "2026-11-02",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.8477
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 41.8892
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 16.2852
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.3407
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.2294
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.0062
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.0791
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5989
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2419
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.1687
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0914
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0693
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 30.1638
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 23.8188
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 16.662
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.0266
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.9378
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.4758
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.5203
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.9474
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2462
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2014
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 23.0963
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.1975
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.9614
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 9.2021
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.3693
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.3267
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.28
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.4009
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.8094
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3622
+    },
+    {
+      "date": "2026-11-03",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.994
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 43.3727
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 17.8331
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.0561
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.1494
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.4006
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.1789
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.7964
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3443
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2899
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2409
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 1.3375
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 36.6616
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 28.8427
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 11.1742
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.3756
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.4627
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.6837
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.4441
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.6485
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.465
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2419
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 22.7591
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.6601
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.3001
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.5272
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.3978
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.1816
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.379
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.4285
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.9558
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.5821
+    },
+    {
+      "date": "2026-11-04",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.8287
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 42.3202
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 16.2642
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.781
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.083
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.1395
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.4812
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.1171
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.329
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.135
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9588
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.3911
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 31.477
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.8264
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 17.6037
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.7426
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.3732
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.5913
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.824
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.657
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.6988
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2061
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 25.1683
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.3554
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.7255
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.7455
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.1702
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.8864
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.4153
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.268
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.203
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.7948
+    },
+    {
+      "date": "2026-11-05",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2677
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 41.0136
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 14.2404
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.2186
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.4932
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.8562
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.2915
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.1024
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3928
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0586
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7536
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5793
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 33.7252
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 27.9288
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.4893
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.4129
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.7273
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.6048
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.1003
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.7393
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.0336
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2386
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.1023
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.4105
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.4181
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.8316
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.8534
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.5067
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.3471
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.8125
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.4323
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.8144
+    },
+    {
+      "date": "2026-11-06",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.4711
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 38.4146
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.8512
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 12.404
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.1082
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.5506
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.7599
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.1944
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.7144
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.9243
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5435
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.535
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 31.0291
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 23.3279
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.7228
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.4008
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.1549
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.3642
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.2113
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.8654
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.5568
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.3668
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 24.3497
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.4615
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.6549
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.2497
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.7571
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.0776
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.6241
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.0673
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.1997
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.9968
+    },
+    {
+      "date": "2026-11-07",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.5614
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 42.0047
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 16.5624
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.4398
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.8934
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.5216
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.0599
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.8495
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.5989
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7411
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6911
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.6377
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 35.9405
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 29.968
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.3308
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.0478
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.3279
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.8453
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.6684
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.7611
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.7349
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.3754
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 37.868
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 17.1753
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.4349
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.3383
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.7187
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.9952
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.7968
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.9462
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2875
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.2607
+    },
+    {
+      "date": "2026-11-08",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.1785
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 42.5578
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 16.5239
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.3873
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.4402
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.5598
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.8237
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.6157
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.502
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2855
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2316
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.0726
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 32.5091
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 28.6125
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 11.1618
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.5536
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.7416
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.9634
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.8463
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.8465
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Fable 5.2",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.8961
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.5943
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.2747
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 27.3478
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 18.746
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.3625
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 8.0084
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.321
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 7.1956
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.5266
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.1451
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.0746
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.7785
+    },
+    {
+      "date": "2026-11-09",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.4939
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 41.8302
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.9626
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.5032
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.315
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.0177
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.7336
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.2296
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 4.1438
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.3119
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.2194
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.7331
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 27.4461
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.6717
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 12.9885
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.8052
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.7211
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 6.3403
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Fable 5.2",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.6448
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.9851
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.6041
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.1284
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.6649
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 25.6948
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.0456
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 13.873
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 10.2412
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.8004
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.8523
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.5357
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 3.5561
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.8871
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.7
+    },
+    {
+      "date": "2026-11-10",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 1.814
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 39.252
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.5095
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.7032
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 7.0145
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.4676
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 6.0134
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.8263
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.0711
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.755
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8245
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5629
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 25.2351
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.6686
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 14.9432
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.633
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.6324
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1678
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.1443
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Fable 5.2",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.5382
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.0262
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.5738
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 2.4374
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 22.4215
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.164
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 14.072
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.8492
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.7367
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.7999
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 5.4503
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.8438
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.6635
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.6254
+    },
+    {
+      "date": "2026-11-11",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3737
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Other",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 37.1632
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 13.4009
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 9.3847
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.8175
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 8.4058
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.6805
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 5.0277
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 3.9546
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.8942
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "DeepSeek V4 Flash 0731",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.737
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Gemini 3.8 Flash",
+      "metric": "requests",
+      "modality": "text",
+      "share_percent": 2.5338
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Other",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 24.7584
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 23.7091
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 15.5716
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Kimi K3.1 Pro",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 8.3979
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Kimi K3",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 7.1548
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 5.3014
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Grok 4.7",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.3694
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Fable 5.2",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 4.3612
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 3.993
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GPT-6 Astra",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 1.6536
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Sonnet 4.5",
+      "metric": "spend",
+      "modality": "text",
+      "share_percent": 0.7296
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Other",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 21.9544
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Beam 1.0",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 20.4548
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 16.1358
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GLM 5.3",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 11.8203
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GLM 5.3 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.8591
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Opus 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 6.2691
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GPT-6 Luna",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.9779
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "DeepSeek V4.1 Flash",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 4.5222
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Sonnet 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.4678
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "Claude Haiku 5.5",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.3477
+    },
+    {
+      "date": "2026-11-12",
+      "group": "model",
+      "name": "GPT-6.1 Sol",
+      "metric": "tokens",
+      "modality": "text",
+      "share_percent": 2.1909
+    }
+  ]
+}

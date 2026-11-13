@@ -34,7 +34,7 @@ dashboard land in Phases 2 and 4 - see [Roadmap](#roadmap).
 | Collectors: Epoch, LiveBench, Hugging Face, ModelScope, Ollama | ✅ implemented, live-verified |
 | Collectors: OpenRouter, Vercel AI Gateway | ✅ implemented |
 | Collectors: LMArena, Artificial Analysis, LiveCodeBench | ⏳ blocked/Phase 2+ (see source table) |
-| Static dashboard (Pico.css + Plotly.js + DuckDB-Wasm) | ⏳ Phase 4 |
+| Static dashboard (Pico.css + Plotly.js + DuckDB-Wasm) | ✅ done — `web/`, serve statically, live-verified |
 
 ## Architecture
 
@@ -51,7 +51,7 @@ common/                     mapping, schemas, indicators, index math
 data/
   raw/<source>/<date>/      original API responses (reprocessing without refetch)
   processed/                standardised + derived Parquet datasets
-web/                        static dashboard (Phase 4)
+web/                        static dashboard (open web/index.html via any static server)
 collect.py                  retrieve + archive + standardise
 process.py                  map entities, compute indicators and indices
 ```
@@ -61,11 +61,16 @@ process.py                  map entities, compute indicators and indices
 ```bash
 python collect.py                # all sources (or --source openrouter)
 python process.py                # indicators + indices from collected data
+python -m http.server 8410 --directory web   # then open http://localhost:8410
 ```
 
 `process.py` never touches the network: it reads archived/standardised data
 and the weights workbook. Editing `config/weights.xlsx` and rerunning
 `process.py` recalculates all historical indices instantly - no recollection.
+It also re-exports the dashboard files (`web/data/`), so a weight edit
+refreshes the dashboard without recollection. Credentials setup:
+[docs/accounts-and-keys.md](docs/accounts-and-keys.md) — only OpenRouter
+needs a key today.
 
 ### Technology
 

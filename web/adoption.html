@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption — AI Global Competitiveness Monitor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "apache-arrow": "https://cdn.jsdelivr.net/npm/apache-arrow@17.0.0/+esm"
+    }
+  }
+  </script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul><li><strong>AI Global Competitiveness Monitor</strong></li></ul>
+      <ul>
+        <li><a href="index.html" class="nav-link">Overview</a></li>
+        <li><a href="capabilities.html" class="nav-link">Capabilities</a></li>
+        <li><a href="adoption.html" class="nav-link active">Adoption</a></li>
+      </ul>
+    </nav>
+    <p class="meta-line">Last update: <span id="last-update">…</span> · Data through: <span id="data-through">…</span></p>
+  </header>
+
+  <main class="container">
+    <h2>Adoption indicators</h2>
+    <p class="muted">Usage shares by geography per platform. Platforms are never summed:
+    each measures a different slice of the market. Shares exclude the unattributable
+    "Other" bucket, so they sum to the identifiable share of traffic, not 100%.</p>
+
+    <div class="grid controls-row">
+      <label>Date range
+        <select id="range-select">
+          <option value="30">Last 30 days</option>
+          <option value="90" selected>Last 90 days</option>
+          <option value="365">Last 12 months</option>
+          <option value="">All time</option>
+        </select>
+      </label>
+    </div>
+
+    <section class="grid">
+      <article>
+        <h4>Vercel AI Gateway — token share <small class="muted">daily shares, identifiable traffic</small></h4>
+        <div id="chart-vg-tokens" class="chart"></div>
+        <p class="muted small">Traffic routed through Vercel AI Gateway only (self-selected sample).</p>
+      </article>
+      <article>
+        <h4>Vercel AI Gateway — spend share <small class="muted">experimental, weight 0</small></h4>
+        <div id="chart-vg-spend" class="chart"></div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article>
+        <h4>Hugging Face — download share <small class="muted">open-weight ecosystem</small></h4>
+        <div id="chart-hf" class="chart"></div>
+        <p class="muted small">Cumulative rolling 30-day counter; within-platform shares per snapshot.</p>
+      </article>
+      <article>
+        <h4>OpenRouter — usage &amp; spending <small class="muted">requires API key to collect</small></h4>
+        <div id="chart-openrouter" class="chart"></div>
+        <p class="muted small" id="or-note">Populated once usage data is collected (OPENROUTER_API_KEY in .env).</p>
+      </article>
+    </section>
+
+    <article>
+      <h4>Top contributing models <span class="muted" id="contrib-date"></span></h4>
+      <p class="muted">Latest share by model for the selected platform snapshot(s).</p>
+      <div class="grid">
+        <div id="contrib-vg"></div>
+        <div id="contrib-hf"></div>
+      </div>
+    </article>
+
+    <article>
+      <h4>Component weights <span class="muted">(edit config/weights.xlsx to change)</span></h4>
+      <div id="weights-table"></div>
+    </article>
+  </main>
+
+  <script type="module">
+  import("./js/adoption.js").catch(e => console.error("boot failed:", e));
+</script>
+</body>
+</html>
